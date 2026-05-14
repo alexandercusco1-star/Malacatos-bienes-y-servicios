@@ -22,8 +22,8 @@
     "nombre": "Lavadora ROA",
     "tipo": "servicios",
     "categoria": "lavadora",
-    "descripcion": "Lavadora enderesada y pintura de carros.",
-    "direccion": "Av.Loja diagonal a ferretería Disensa.",
+    "descripcion": "Lavadora enderezada y pintura de carros.",
+    "direccion": "av.loja diagonal a ferreteria disensa.",
     "telefono": "+593959007258",
     "latitud": -4.21624736,
     "longitud": -79.25480778,
@@ -33,8 +33,8 @@
       "s2.1.jpg"
     ]
   },
-    {
-    "nombre": "Comercial Narcisa de Jesús",
+  {
+    "nombre": "Comercial Narcisa de Jesus",
     "tipo": "servicios",
     "categoria": "tienda",
     "descripcion": "Venta de insumos y alimentos para el hogar.",
@@ -54,8 +54,8 @@
     "nombre": "Carpinteria Medina",
     "tipo": "servicios",
     "categoria": "carpinteria",
-    "descripcion": "Diseño y construcción en madera.",
-    "direccion": "Av. Loja diagonal a la entrada a Calera",
+    "descripcion": "Diseno y construccion en madera.",
+    "direccion": "av. loja diagonal a la entrada a calera",
     "telefono": "+593959007258",
     "latitud": -4.216438,
     "longitud": -79.255175,
@@ -70,9 +70,9 @@
   {
     "nombre": "NCS Materiales",
     "tipo": "servicios",
-    "categoria": "material petreo",
-    "descripcion": "Venta de materiales para la costruccion y alquiler de equipo para la construcción.",
-    "direccion": "Av.Loja y entrada a calera, esquina",
+    "categoria": "material-petreo",
+    "descripcion": "Venta de materiales para la construccion y alquiler de equipo para la construccion.",
+    "direccion": "av.loja y entrada a calera, esquina",
     "telefono": "+593959007258",
     "latitud": -4.216718,
     "longitud": -79.256153,
@@ -83,12 +83,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Hostal Valto",
     "tipo": "servicios",
     "categoria": "hostal",
-    "descripcion": "Centro reacresion y alojamiento temporal.",
-    "direccion": "Pio montufar y",
+    "descripcion": "Centro recreacion y alojamiento temporal.",
+    "direccion": "pio montufar",
     "telefono": "+593959007258",
     "latitud": -4.219635,
     "longitud": -79.257843,
@@ -102,8 +102,8 @@
     "nombre": "Hostal Villa Colonial",
     "tipo": "servicios",
     "categoria": "hostal",
-    "descripcion": "Centro reacresion y alojamiento temporal.",
-    "direccion": "Pio montufar y estupiñan",
+    "descripcion": "Centro recreacion y alojamiento temporal.",
+    "direccion": "pio montufar y estupinan",
     "telefono": "+593959007258",
     "latitud": -4.219026,
     "longitud": -79.257750,
@@ -113,13 +113,12 @@
     ],
     "destacado": false
   },
-
   {
     "nombre": "GABRIELA, bar restaurante, cafeteria",
     "tipo": "servicios",
     "categoria": "restaurante-cafe-bar",
-    "descripcion": "Gastronomia local y sevicios gastronomicas.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Gastronomia local y servicios gastronomicos.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217181,
     "longitud": -79.256879,
@@ -129,12 +128,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Supermercado JALEK",
     "tipo": "servicios",
     "categoria": "supermercado",
     "descripcion": "Venta de todo tipo de insumos para el hogar.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217257,
     "longitud": -79.257198,
@@ -144,12 +143,12 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Panadería Sabor Lojano",
+  {
+    "nombre": "Panaderia Sabor Lojano",
     "tipo": "servicios",
     "categoria": "panaderia",
-    "descripcion": "Panadería y pastelería.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Panaderia y pasteleria.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217414,
     "longitud": -79.257331,
@@ -159,19 +158,18 @@
     ],
     "destacado": false
   },
-
   {
-    "nombre": "Cabañas del sol",
+    "nombre": "Cabanas del sol",
     "tipo": "servicios",
     "categoria": "hosteria",
-    "descripcion": "recreación y hospedaje.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Recreacion y hospedaje.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.214117,
     "longitud": -79.251013,
     "icono": "icon-hosteria.jpeg",
     "imagenes": [
-      "s13-hosteria-cabañas-sol.jpg"
+      "s13-hosteria-cabanas-sol.jpg"
     ],
     "destacado": false
   },
@@ -180,7 +178,7 @@
     "tipo": "servicios",
     "categoria": "licoreria",
     "descripcion": "Venta de bebidas alcoholicas y no alcoholicas.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217141,
     "longitud": -79.256367,
@@ -190,12 +188,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Tecni Centro Delgado",
     "tipo": "servicios",
     "categoria": "lubricadora",
     "descripcion": "Arreglo, lavado de autos y servicio de torno.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217648,
     "longitud": -79.257414,
@@ -204,14 +202,15 @@
       "s15-lubricadora-delgado.jpg"
     ],
     "destacado": false
-  },
-  
-    {
-    "nombre": "Ferretería CODECA materiales de construcción",
+  }
+]
+,
+  {
+    "nombre": "Ferreteria CODECA materiales de construccion",
     "tipo": "servicios",
     "categoria": "ferreteria",
-    "descripcion": "Venta de productos de construcción",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Venta de productos de construccion.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217630,
     "longitud": -79.257771,
@@ -221,28 +220,12 @@
     ],
     "destacado": false
   },
-  
   {
-    "nombre": "Supermercado Sumba",
-    "tipo": "servicios",
-    "categoria": "supermercado",
-    "descripcion": "Venta de todo tipo de insumos para el hogar.",
-    "direccion": "Av. Loja y ",
-    "telefono": "+593959007258",
-    "latitud": -4.217488,
-    "longitud": -79.257537,
-    "icono": "icon-supermercado.jpeg",
-    "imagenes": [
-      "s18-supermercado-sumba.jpg"
-    ],
-    "destacado": false
-  },
-    {
     "nombre": "Agropecuaria El finquero",
     "tipo": "servicios",
     "categoria": "agropecuaria",
-    "descripcion": "Venta de producto agropecuario",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Venta de productos agropecuarios.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217793,
     "longitud": -79.257629,
@@ -253,11 +236,26 @@
     "destacado": false
   },
   {
+    "nombre": "Supermercado Sumba",
+    "tipo": "servicios",
+    "categoria": "supermercado",
+    "descripcion": "Venta de todo tipo de insumos para el hogar.",
+    "direccion": "av. loja",
+    "telefono": "+593959007258",
+    "latitud": -4.217488,
+    "longitud": -79.257537,
+    "icono": "icon-supermercado.jpeg",
+    "imagenes": [
+      "s18-supermercado-sumba.jpg"
+    ],
+    "destacado": false
+  },
+  {
     "nombre": "Agropecuaria Vilcagro",
     "tipo": "servicios",
     "categoria": "agropecuaria",
-    "descripcion": "Venta de producto agropecuario",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Venta de productos agropecuarios.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217739,
     "longitud": -79.257463,
@@ -267,12 +265,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Restaurante Rojas",
     "tipo": "servicios",
     "categoria": "restaurante",
-    "descripcion": "Gastronomia local y sevicios gastronomicas.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Gastronomia local y servicios gastronomicos.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217557,
     "longitud": -79.257183,
@@ -287,7 +285,7 @@
     "tipo": "servicios",
     "categoria": "farmacia",
     "descripcion": "Medicina y medicamentos para su salud.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.218150,
     "longitud": -79.258686,
@@ -297,12 +295,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Farmacia Economica",
     "tipo": "servicios",
     "categoria": "farmacia",
     "descripcion": "Medicina y medicamentos para su salud.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.218160,
     "longitud": -79.258302,
@@ -312,27 +310,27 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Farmacia Nuestra Señora de Lourdes",
+  {
+    "nombre": "Farmacia Nuestra Senora de Lourdes",
     "tipo": "servicios",
     "categoria": "farmacia",
     "descripcion": "Medicina y medicamentos para su salud.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.218023,
     "longitud": -79.258514,
     "icono": "icon-farmacia.jpeg",
     "imagenes": [
-      "s23-farmacia-nuestra-señora-lourdes.jpg"
+      "s23-farmacia-nuestra-senora-lourdes.jpg"
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Proton",
     "tipo": "servicios",
     "categoria": "celulares",
-    "descripcion": "Servicio tectico y accesorios telefonicos.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Servicio tecnico y accesorios telefonicos.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.218467,
     "longitud": -79.258359,
@@ -346,8 +344,8 @@
     "nombre": "Yunnan",
     "tipo": "servicios",
     "categoria": "chifa",
-    "descripcion": "Venta de gastronomía China.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Venta de gastronomia china.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.215658,
     "longitud": -79.253654,
@@ -361,8 +359,8 @@
     "nombre": "La Pampa",
     "tipo": "servicios",
     "categoria": "canchas-futbol",
-    "descripcion": "Espacio recreacional, para campionatos de varones y mujeres.",
-    "direccion": "Entrada a la granja 300m ",
+    "descripcion": "Espacio recreacional para campeonatos de varones y mujeres.",
+    "direccion": "entrada a la granja 300m",
     "telefono": "+593959007258",
     "latitud": -4.215567,
     "longitud": -79.255660,
@@ -373,11 +371,11 @@
     "destacado": false
   },
   {
-    "nombre": "Dicoteca Level ONE",
+    "nombre": "Discoteca Level ONE",
     "tipo": "servicios",
     "categoria": "bar-discoteca",
     "descripcion": "Fiesta y disfrute entre amigos.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217194,
     "longitud": -79.256606,
@@ -388,26 +386,26 @@
     "destacado": false
   },
   {
-    "nombre": "Vulcanizadora Señor de la Caridad",
+    "nombre": "Vulcanizadora Senor de la Caridad",
     "tipo": "servicios",
     "categoria": "vulcanizadora",
-    "descripcion": "Arregló y acomodo en vulcanización.",
-    "direccion": "Av. Loja y ",
+    "descripcion": "Arreglo y acomodo en vulcanizacion.",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.215904,
     "longitud": -79.254871,
     "icono": "icon-vulcanizadora.jpeg",
     "imagenes": [
-      "s28-vulcanizadora-señor-caridad.jpg"
+      "s28-vulcanizadora-senor-caridad.jpg"
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Lavadora de carros MATHI",
     "tipo": "servicios",
     "categoria": "lavadora",
     "descripcion": "Lavado de carros.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.216319,
     "longitud": -79.255000,
@@ -416,13 +414,14 @@
       "s29-lavadora-carros-MATHI.jpg"
     ],
     "destacado": false
-  },
-    {
+  }
+,
+  {
     "nombre": "Lubricadora Vas del",
     "tipo": "servicios",
     "categoria": "lubricadora",
     "descripcion": "Lubricadora de carros.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217520,
     "longitud": -79.257892,
@@ -437,7 +436,7 @@
     "tipo": "servicios",
     "categoria": "comercial",
     "descripcion": "Venta de electronicos y muebles en general.",
-    "direccion": "Av. Loja y ",
+    "direccion": "av. loja",
     "telefono": "+593959007258",
     "latitud": -4.217961,
     "longitud": -79.257935,
@@ -452,7 +451,7 @@
     "tipo": "servicios",
     "categoria": "tienda",
     "descripcion": "Venta de insumos y alimentos para el hogar.",
-    "direccion": "pio montufar , esquina junto a farmacias MIA",
+    "direccion": "pio montufar, esquina junto a farmacias mia",
     "telefono": "+593959007258",
     "latitud": -4.218381,
     "longitud": -79.258637,
@@ -464,12 +463,12 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Vivero ",
+  {
+    "nombre": "Vivero",
     "tipo": "servicios",
     "categoria": "vivero",
-    "descripcion": "Venta de hornamento.",
-    "direccion": "pio m",
+    "descripcion": "Venta de ornamentacion.",
+    "direccion": "pio montufar",
     "telefono": "+593959007258",
     "latitud": -4.218295,
     "longitud": -79.258840,
@@ -480,15 +479,13 @@
       "s33.2.jpg"
     ],
     "destacado": false
-      
   },
-
   {
     "nombre": "Equipos para piscina",
     "tipo": "servicios",
     "categoria": "piscina",
-    "descripcion": "Diseño, accesorios y construcción de piscinas.",
-    "direccion": "pio montufear.",
+    "descripcion": "Diseno, accesorios y construccion de piscinas.",
+    "direccion": "pio montufar",
     "telefono": "+593959007258",
     "latitud": -4.218472,
     "longitud": -79.258739,
@@ -498,13 +495,12 @@
       "s34.1.jpg"
     ]
   },
-  
   {
     "nombre": "Unidad Educativa",
     "tipo": "servicios",
     "categoria": "educacion",
-    "descripcion": "Centro Educativo.",
-    "direccion": "Av.Loja y Av Pio Jaramillo.",
+    "descripcion": "Centro educativo.",
+    "direccion": "av.loja y av pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.218580,
     "longitud": -79.258904,
@@ -514,13 +510,12 @@
       "s35.1.jpg"
     ]
   },
-    
   {
     "nombre": "Chalan",
     "tipo": "servicios",
     "categoria": "soldadura",
-    "descripcion": "Diseño y construcción en metal.",
-    "direccion": "Av. Loja a 290m entrada a Calera",
+    "descripcion": "Diseno y construccion en metal.",
+    "direccion": "av. loja a 290m entrada a calera",
     "telefono": "+593959007258",
     "latitud": -4.228580,
     "longitud": -79.258904,
@@ -530,12 +525,12 @@
       "s36.1.jpg"
     ]
   },
-    {
+  {
     "nombre": "MOTUS",
     "tipo": "servicios",
     "categoria": "motos",
     "descripcion": "Reparacion de motos.",
-    "direccion": "Av. Loja a 290m entrada a Calera",
+    "direccion": "av. loja a 290m entrada a calera",
     "telefono": "+593959007258",
     "latitud": -4.228880,
     "longitud": -79.258904,
@@ -550,7 +545,7 @@
     "tipo": "servicios",
     "categoria": "centro-eventos",
     "descripcion": "Espacio para la realizacion de eventos.",
-    "direccion": "Av. Loja a 50m entrada a Calera",
+    "direccion": "av. loja a 50m entrada a calera",
     "telefono": "+593959007258",
     "latitud": -4.229780,
     "longitud": -79.258904,
@@ -560,12 +555,12 @@
       "s38.1.jpg"
     ]
   },
-    {
+  {
     "nombre": "Aserradero Soto",
     "tipo": "servicios",
     "categoria": "aserradero",
     "descripcion": "Venta de madera al por mayor y menor.",
-    "direccion": "Av. Loja a frente a la entrada a Calera",
+    "direccion": "av. loja frente a la entrada a calera",
     "telefono": "+593959007258",
     "latitud": -4.222780,
     "longitud": -79.258904,
@@ -580,7 +575,7 @@
     "tipo": "servicios",
     "categoria": "aserradero",
     "descripcion": "Venta de madera al por mayor y menor.",
-    "direccion": "Av. Loja a frente de discoteca L1",
+    "direccion": "av. loja frente a discoteca l1",
     "telefono": "+593959007258",
     "latitud": -4.224480,
     "longitud": -79.258904,
@@ -590,27 +585,27 @@
       "s40.1.jpg"
     ]
   },
-    {
-    "nombre": "Fabrica de caña Ocampo",
+  {
+    "nombre": "Fabrica de cana Ocampo",
     "tipo": "servicios",
-    "categoria": "fabrica-caña",
-    "descripcion": "Producción de panela de caña.",
-    "direccion": " a 200m de la Av. Loja ",
+    "categoria": "fabrica-cana",
+    "descripcion": "Produccion de panela de cana.",
+    "direccion": "a 200m de la av. loja",
     "telefono": "+593959007258",
     "latitud": -4.234480,
     "longitud": -79.258904,
-    "icono": "icon-fabrica-caña.jpeg",
+    "icono": "icon-fabrica-cana.jpeg",
     "imagenes": [
-      "s41-fabrica-caña-ocampo.jpg",
+      "s41-fabrica-cana-ocampo.jpg",
       "s41.1.jpg"
     ]
   },
-   {
+  {
     "nombre": "Farmacia MIAS",
     "tipo": "servicios",
     "categoria": "farmacia",
     "descripcion": "Medicina y medicamentos para su salud.",
-    "direccion": "Av. Loja y Av.Pio jaramillo",
+    "direccion": "av. loja y av.pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.218023,
     "longitud": -79.258534,
@@ -619,28 +614,29 @@
       "s42-farmacia-MIAS.jpg"
     ],
     "destacado": false
-  },
-    {
+  }
+,
+  {
     "nombre": "Restaurante Maria",
     "tipo": "servicios",
     "categoria": "asadero-pollo",
-    "descripcion": "Pollo asado y Gastronomia local.",
-    "direccion": "Av. Pio Jaramillo y Alejandro  Bravo",
+    "descripcion": "Pollo asado y gastronomia local.",
+    "direccion": "av. pio jaramillo y alejandro bravo",
     "telefono": "+593959007258",
     "latitud": -4.221,
     "longitud": -79.241,
-    "icono": "icon-asdero-pollo.jpeg",
+    "icono": "icon-asadero-pollo.jpeg",
     "imagenes": [
       "s43-asadero-pollo-maria.jpg"
     ],
     "destacado": false
   },
-      {
+  {
     "nombre": "Restaurante Comida Mexicana",
     "tipo": "servicios",
     "categoria": "comida-rapida-mexicana",
-    "descripcion": "Comida Mexicana.",
-    "direccion": "Av. Pio Jaramillo y Alejandro  Bravo",
+    "descripcion": "Comida mexicana.",
+    "direccion": "av. pio jaramillo y alejandro bravo",
     "telefono": "+593959007258",
     "latitud": -4.222,
     "longitud": -79.242,
@@ -650,13 +646,12 @@
     ],
     "destacado": false
   },
-  
-      {
+  {
     "nombre": "Encebollados y algo mas",
     "tipo": "servicios",
     "categoria": "marisqueria",
-    "descripcion": "Comida manaba, marisqueria.",
-    "direccion": "Av. Pio Jaramillo y Alejandro  Bravo",
+    "descripcion": "Comida manaba y marisqueria.",
+    "direccion": "av. pio jaramillo y alejandro bravo",
     "telefono": "+593959007258",
     "latitud": -4.223,
     "longitud": -79.242,
@@ -666,13 +661,12 @@
     ],
     "destacado": false
   },
-  
-      {
-    "nombre": "Perú Mar",
+  {
+    "nombre": "Peru Mar",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "marisqueria",
     "descripcion": "Marisqueria.",
-    "direccion": "Av. Loja y Pio Jaramillo",
+    "direccion": "av. loja y pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.224,
     "longitud": -79.242,
@@ -685,9 +679,9 @@
   {
     "nombre": "Distribuidora Loja gas",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Venta y distribución de gas.",
-    "direccion": "Av. Loja y Pio Jaramillo",
+    "categoria": "distribuidora-gas",
+    "descripcion": "Venta y distribucion de gas.",
+    "direccion": "av. loja y pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.2235,
     "longitud": -79.242,
@@ -697,12 +691,12 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Distribuidora Loja gas",
+  {
+    "nombre": "Distribuidora Loja gas Riofrio",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Venta y distribución de gas.",
-    "direccion": "Av.Pio Jaramillo y alejandro bravo",
+    "categoria": "distribuidora-gas",
+    "descripcion": "Venta y distribucion de gas.",
+    "direccion": "av.pio jaramillo y alejandro bravo",
     "telefono": "+593959007258",
     "latitud": -4.2237,
     "longitud": -79.242,
@@ -712,12 +706,12 @@
     ],
     "destacado": false
   },
-      {
+  {
     "nombre": "Cooperativa CACPE",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Cooperativa de ahorro y crédito.",
-    "direccion": "Av.Loja y Pio Jaramillo",
+    "categoria": "cooperativa",
+    "descripcion": "Cooperativa de ahorro y credito.",
+    "direccion": "av.loja y pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.242,
@@ -727,13 +721,12 @@
     ],
     "destacado": false
   },
-  
-      {
-    "nombre": "Papelería Lanche",
+  {
+    "nombre": "Papeleria Lanche",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "papeleria",
     "descripcion": "Todo en papeleria en general.",
-    "direccion": "Av.Loja y Pio Jaramillo",
+    "direccion": "av.loja y pio jaramillo",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.2441,
@@ -743,13 +736,12 @@
     ],
     "destacado": false
   },
-  
-      {
-    "nombre": "Peluquería Rocio",
+  {
+    "nombre": "Peluqueria Rocio",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "peluqueria",
     "descripcion": "Cortes y peinados para hombre y mujer.",
-    "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy",
+    "direccion": "av. pio jaramillo y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.2442,
@@ -759,12 +751,12 @@
     ],
     "destacado": false
   },
-     {
-    "nombre": "Barbería 1",
+  {
+    "nombre": "Barberia 1",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "barberia",
     "descripcion": "Cortes y peinados para hombre.",
-    "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy",
+    "direccion": "av. pio jaramillo y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.2444,
@@ -775,11 +767,11 @@
     "destacado": false
   },
   {
-    "nombre": "Barbería 2",
+    "nombre": "Barberia 2",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "barberia",
     "descripcion": "Cortes y peinados para hombre.",
-    "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy",
+    "direccion": "av. pio jaramillo y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.2443,
@@ -789,27 +781,28 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Barbería 3",
+  {
+    "nombre": "Barberia 3",
     "tipo": "servicios",
-    "categoria": "",
+    "categoria": "barberia",
     "descripcion": "Cortes y peinados para hombre.",
-    "direccion": "Miguel Riofrio y Manuel Ignacio Godoy",
+    "direccion": "miguel riofrio y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.2239,
     "longitud": -79.2445,
-    "icono": "icon-barbeia.jpeg",
+    "icono": "icon-barberia.jpeg",
     "imagenes": [
       "s54-barberia-3.jpg"
     ],
     "destacado": false
-  },
+  }
+,
   {
-    "nombre": "Odontología",
+    "nombre": "Odontologia",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Trabajos en odontología.",
-    "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy",
+    "categoria": "odontologia",
+    "descripcion": "Trabajos en odontologia.",
+    "direccion": "av. pio jaramillo y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.223956,
     "longitud": -79.2445,
@@ -820,11 +813,11 @@
     "destacado": false
   },
   {
-    "nombre": "Cajero banco de Loja",
+    "nombre": "Cajero banco de loja",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Cajero automático .",
-    "direccion": "Justiano Estupiñan",
+    "categoria": "cajero",
+    "descripcion": "Cajero automatico.",
+    "direccion": "justiniano estupinan",
     "telefono": "+593959007258",
     "latitud": -4.223755676,
     "longitud": -79.242,
@@ -837,9 +830,9 @@
   {
     "nombre": "Cajero JEP",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Cajero automático.",
-    "direccion": "Justiniano Estupiñan",
+    "categoria": "cajero",
+    "descripcion": "Cajero automatico.",
+    "direccion": "justiniano estupinan",
     "telefono": "+593959007258",
     "latitud": -4.223757566,
     "longitud": -79.242,
@@ -849,12 +842,12 @@
     ],
     "destacado": false
   },
-    {
-    "nombre": "Odontología 2",
+  {
+    "nombre": "Odontologia 2",
     "tipo": "servicios",
-    "categoria": "",
-    "descripcion": "Trabajos en odontología.",
-    "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy",
+    "categoria": "odontologia",
+    "descripcion": "Trabajos en odontologia.",
+    "direccion": "av. pio jaramillo y manuel ignacio godoy",
     "telefono": "+593959007258",
     "latitud": -4.223965,
     "longitud": -79.2445,
@@ -869,7 +862,7 @@
     "tipo": "servicios",
     "categoria": "bazar-papeleria",
     "descripcion": "Articulos varios.",
-    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "direccion": "av.pio jaramillo y av. loja",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
@@ -879,12 +872,12 @@
     ],
     "destacado": false
   },
-    {
+  {
     "nombre": "Centro de computacion",
     "tipo": "servicios",
     "categoria": "centro-computo",
-    "descripcion": "Materiales para la construcción.",
-    "direccion": "Av. Loja y entrada a Calera esquina.",
+    "descripcion": "Servicio de computacion y accesorios.",
+    "direccion": "av. loja y entrada a calera esquina",
     "telefono": "+5939591258",
     "latitud": -4.21648866,
     "longitud": -79.25574610,
@@ -893,13 +886,13 @@
       "s60-ferreteria-jara.jpg",
       "s60.1.jpg"
     ]
-  }
+  },
   {
     "nombre": "Comercial",
     "tipo": "servicios",
     "categoria": "ropa",
-    "descripcion": "Materiales para la construcción.",
-    "direccion": "Av. Loja y entrada a Calera esquina.",
+    "descripcion": "Venta de ropa y accesorios.",
+    "direccion": "av. loja y entrada a calera esquina",
     "telefono": "+5939591258",
     "latitud": -4.21648866,
     "longitud": -79.25574610,
@@ -908,13 +901,13 @@
       "s61-ropa.jpg",
       "s61.1.jpg"
     ]
-  }
+  },
   {
     "nombre": "servientrega",
     "tipo": "servicios",
     "categoria": "servientrega",
-    "descripcion": "Articulos varios.",
-    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "descripcion": "Envios y encomiendas.",
+    "direccion": "av.pio jaramillo y av. loja",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
@@ -928,8 +921,8 @@
     "nombre": "internet",
     "tipo": "servicios",
     "categoria": "internet",
-    "descripcion": "Internet.",
-    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "descripcion": "Servicio de internet.",
+    "direccion": "av.pio jaramillo y av. loja",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
@@ -939,21 +932,19 @@
     ],
     "destacado": false
   },
-  
-  
   {
-"nombre": "servicios higienticos - baños",
+    "nombre": "servicios higienicos - banos",
     "tipo": "servicios",
-    "categoria": "internet",
-    "descripcion": "servicios higienticos - baños",
-    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "categoria": "banos-publicos",
+    "descripcion": "Servicios higienicos y banos.",
+    "direccion": "av.pio jaramillo y av. loja",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
-    "icono": "icon-baños.jpeg",
+    "icono": "icon-banos.jpeg",
     "imagenes": [
-      "s64-baños.jpg"
+      "s64-banos.jpg"
     ],
     "destacado": false
-  },
+  }
 ]
