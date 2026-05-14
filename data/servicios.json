@@ -865,34 +865,95 @@
     "destacado": false
   },
   {
-    "nombre": "Alex Cell",
+    "nombre": "Bazar y papeleria",
     "tipo": "servicios",
-    "categoria": "celulares",
-    "descripcion": "Servicio tectico y accesorios telefonicos.",
+    "categoria": "bazar-papeleria",
+    "descripcion": "Articulos varios.",
     "direccion": "Av.Pio Jaramillo y Av. Loja ",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
-    "icono": "icon-celulares.jpeg",
+    "icono": "icon-bazar.jpeg",
     "imagenes": [
-      "s59-celulares-alex-cell.jpg"
+      "s59-bazar-papeleria.jpg"
     ],
     "destacado": false
   },
     {
-    "nombre": "Ferretería jara",
+    "nombre": "Centro de computacion",
     "tipo": "servicios",
-    "categoria": "ferreteria",
+    "categoria": "centro-computo",
     "descripcion": "Materiales para la construcción.",
     "direccion": "Av. Loja y entrada a Calera esquina.",
     "telefono": "+5939591258",
     "latitud": -4.21648866,
     "longitud": -79.25574610,
-    "icono": "icon-ferreteria.jpeg",
+    "icono": "icon-computo.jpeg",
     "imagenes": [
       "s60-ferreteria-jara.jpg",
       "s60.1.jpg"
     ]
   }
-
+  {
+    "nombre": "Comercial",
+    "tipo": "servicios",
+    "categoria": "ropa",
+    "descripcion": "Materiales para la construcción.",
+    "direccion": "Av. Loja y entrada a Calera esquina.",
+    "telefono": "+5939591258",
+    "latitud": -4.21648866,
+    "longitud": -79.25574610,
+    "icono": "icon-ropa.jpeg",
+    "imagenes": [
+      "s61-ropa.jpg",
+      "s61.1.jpg"
+    ]
+  }
+  {
+    "nombre": "servientrega",
+    "tipo": "servicios",
+    "categoria": "servientrega",
+    "descripcion": "Articulos varios.",
+    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "telefono": "+593959107258",
+    "latitud": -4.218465677,
+    "longitud": -79.258359,
+    "icono": "icon-servientrega.jpeg",
+    "imagenes": [
+      "s62-servientrega.jpg"
+    ],
+    "destacado": false
+  },
+  {
+    "nombre": "internet",
+    "tipo": "servicios",
+    "categoria": "internet",
+    "descripcion": "Internet.",
+    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "telefono": "+593959107258",
+    "latitud": -4.218465677,
+    "longitud": -79.258359,
+    "icono": "icon-internet.jpeg",
+    "imagenes": [
+      "s63-internet.jpg"
+    ],
+    "destacado": false
+  },
+  
+  
+  {
+"nombre": "servicios higienticos - baños",
+    "tipo": "servicios",
+    "categoria": "internet",
+    "descripcion": "servicios higienticos - baños",
+    "direccion": "Av.Pio Jaramillo y Av. Loja ",
+    "telefono": "+593959107258",
+    "latitud": -4.218465677,
+    "longitud": -79.258359,
+    "icono": "icon-baños.jpeg",
+    "imagenes": [
+      "s64-baños.jpg"
+    ],
+    "destacado": false
+  },
 ]
