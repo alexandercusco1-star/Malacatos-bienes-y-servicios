@@ -870,28 +870,28 @@
     "categoria": "celulares",
     "descripcion": "Servicio tectico y accesorios telefonicos.",
     "direccion": "Av.Pio Jaramillo y Av. Loja ",
-    "telefono": "+593959007258",
+    "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
     "icono": "icon-celulares.jpeg",
     "imagenes": [
-      "s24-celulares-proton.jpg"
+      "s59-celulares-alex-cell.jpg"
     ],
     "destacado": false
   },
     {
-    "nombre": "Ferretería Disensa",
+    "nombre": "Ferretería jara",
     "tipo": "servicios",
     "categoria": "ferreteria",
     "descripcion": "Materiales para la construcción.",
     "direccion": "Av. Loja y entrada a Calera esquina.",
-    "telefono": "+593959007258",
+    "telefono": "+5939591258",
     "latitud": -4.21648866,
     "longitud": -79.25574610,
     "icono": "icon-ferreteria.jpeg",
     "imagenes": [
-      "s5-ferreteria-disensa.jpg",
-      "s5.1.jpg"
+      "s60-ferreteria-jara.jpg",
+      "s60.1.jpg"
     ]
   }
 
