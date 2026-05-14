@@ -815,7 +815,7 @@
     "longitud": -79.2445,
     "icono": "icon-odontologia.jpeg",
     "imagenes": [
-      "s55-dontologia-1.jpg"
+      "s55-odontologia-1.jpg"
     ],
     "destacado": false
   },
@@ -828,9 +828,9 @@
     "telefono": "+593959007258",
     "latitud": -4.223755676,
     "longitud": -79.242,
-    "icono": "icon-corporacion-financiera.jpeg",
+    "icono": "icon-coorporacion-financiera.jpeg",
     "imagenes": [
-      "s56-corporacion-financiera-fases.jpg"
+      "s56-coorporacion-financiera-fases.jpg"
     ],
     "destacado": false
   },
@@ -843,9 +843,9 @@
     "telefono": "+593959007258",
     "latitud": -4.223757566,
     "longitud": -79.242,
-    "icono": "icon-corporacion-financiera.jpeg",
+    "icono": "icon-cajero.jpeg",
     "imagenes": [
-      "s57-corporacion-financiera-jep.jpg"
+      "s57-cajero-jep.jpg"
     ],
     "destacado": false
   },
@@ -860,7 +860,7 @@
     "longitud": -79.2445,
     "icono": "icon-odontologia.jpeg",
     "imagenes": [
-      "s58-dontologia-2.jpg"
+      "s58-odontologia-2.jpg"
     ],
     "destacado": false
   },
