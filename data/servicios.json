@@ -942,4 +942,946 @@
     ],
     "destacado": false
   }
+  [
+{
+  "nombre": "tienda 1",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218500,
+  "longitud": -79.258400,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s65-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 2",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218501,
+  "longitud": -79.258401,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s66-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 3",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218502,
+  "longitud": -79.258402,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s67-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 4",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218503,
+  "longitud": -79.258403,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s68-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 5",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218504,
+  "longitud": -79.258404,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s69-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 6",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218505,
+  "longitud": -79.258405,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s70-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 7",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218506,
+  "longitud": -79.258406,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s71-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 8",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218507,
+  "longitud": -79.258407,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s72-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 9",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218508,
+  "longitud": -79.258408,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s73-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 10",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218509,
+  "longitud": -79.258409,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s74-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 11",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218510,
+  "longitud": -79.258410,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s75-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 12",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218511,
+  "longitud": -79.258411,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s76-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 13",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218512,
+  "longitud": -79.258412,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s77-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 14",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218513,
+  "longitud": -79.258413,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s78-tienda.jpg"],
+  "destacado": false
+},
+{
+  "nombre": "tienda 15",
+  "tipo": "servicios",
+  "categoria": "tienda",
+  "descripcion": "Articulos varios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218514,
+  "longitud": -79.258414,
+  "icono": "icon-tienda.jpeg",
+  "imagenes": ["s79-tienda.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "ferreteria 1",
+  "tipo": "servicios",
+  "categoria": "ferreteria",
+  "descripcion": "venta de materiales de construccion.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218520,
+  "longitud": -79.258420,
+  "icono": "icon-ferreteria.jpeg",
+  "imagenes": ["s80-ferreteria.jpg"],
+  "destacado": false
+}
+    [
+{
+  "nombre": "ferreteria 2",
+  "tipo": "servicios",
+  "categoria": "ferreteria",
+  "descripcion": "venta de materiales de construccion.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218521,
+  "longitud": -79.258421,
+  "icono": "icon-ferreteria.jpeg",
+  "imagenes": ["s81-ferreteria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "carpinteria 1",
+  "tipo": "servicios",
+  "categoria": "carpinteria",
+  "descripcion": "trabajos en madera.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218522,
+  "longitud": -79.258422,
+  "icono": "icon-carpinteria.jpeg",
+  "imagenes": ["s82-carpinteria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "material petreo 1",
+  "tipo": "servicios",
+  "categoria": "material-petreo",
+  "descripcion": "materiales de construccion.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218523,
+  "longitud": -79.258423,
+  "icono": "icon-material-petreo.jpeg",
+  "imagenes": ["s83-material-petreo.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "hostal 1",
+  "tipo": "servicios",
+  "categoria": "hostal",
+  "descripcion": "hospedaje.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218524,
+  "longitud": -79.258424,
+  "icono": "icon-hostal.jpeg",
+  "imagenes": ["s84-hostal.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "hostal 2",
+  "tipo": "servicios",
+  "categoria": "hostal",
+  "descripcion": "hospedaje.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218525,
+  "longitud": -79.258425,
+  "icono": "icon-hostal.jpeg",
+  "imagenes": ["s85-hostal.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 1",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218526,
+  "longitud": -79.258426,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s86-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 2",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218527,
+  "longitud": -79.258427,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s87-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 3",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218528,
+  "longitud": -79.258428,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s88-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 4",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218529,
+  "longitud": -79.258429,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s89-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 5",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218530,
+  "longitud": -79.258430,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s90-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 6",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218531,
+  "longitud": -79.258431,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s91-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "restaurante 7",
+  "tipo": "servicios",
+  "categoria": "restaurante",
+  "descripcion": "comida local.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218532,
+  "longitud": -79.258432,
+  "icono": "icon-restaurante.jpeg",
+  "imagenes": ["s92-restaurante.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "supermercado 1",
+  "tipo": "servicios",
+  "categoria": "supermercado",
+  "descripcion": "productos de consumo.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218533,
+  "longitud": -79.258433,
+  "icono": "icon-supermercado.jpeg",
+  "imagenes": ["s93-supermercado.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "supermercado 2",
+  "tipo": "servicios",
+  "categoria": "supermercado",
+  "descripcion": "productos de consumo.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218534,
+  "longitud": -79.258434,
+  "icono": "icon-supermercado.jpeg",
+  "imagenes": ["s94-supermercado.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "panaderia 1",
+  "tipo": "servicios",
+  "categoria": "panaderia",
+  "descripcion": "pan y pasteleria.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218535,
+  "longitud": -79.258435,
+  "icono": "icon-panaderia.jpeg",
+  "imagenes": ["s95-panaderia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "panaderia 2",
+  "tipo": "servicios",
+  "categoria": "panaderia",
+  "descripcion": "pan y pasteleria.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218536,
+  "longitud": -79.258436,
+  "icono": "icon-panaderia.jpeg",
+  "imagenes": ["s96-panaderia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "panaderia 3",
+  "tipo": "servicios",
+  "categoria": "panaderia",
+  "descripcion": "pan y pasteleria.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218537,
+  "longitud": -79.258437,
+  "icono": "icon-panaderia.jpeg",
+  "imagenes": ["s97-panaderia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "panaderia 4",
+  "tipo": "servicios",
+  "categoria": "panaderia",
+  "descripcion": "pan y pasteleria.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218538,
+  "longitud": -79.258438,
+  "icono": "icon-panaderia.jpeg",
+  "imagenes": ["s98-panaderia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "hosteria 1",
+  "tipo": "servicios",
+  "categoria": "hosteria",
+  "descripcion": "recreacion y hospedaje.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218539,
+  "longitud": -79.258439,
+  "icono": "icon-hosteria.jpeg",
+  "imagenes": ["s99-hosteria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "hosteria 2",
+  "tipo": "servicios",
+  "categoria": "hosteria",
+  "descripcion": "recreacion y hospedaje.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218540,
+  "longitud": -79.258440,
+  "icono": "icon-hosteria.jpeg",
+  "imagenes": ["s100-hosteria.jpg"],
+  "destacado": false
+}
+      [
+{
+  "nombre": "hosteria 3",
+  "tipo": "servicios",
+  "categoria": "hosteria",
+  "descripcion": "recreacion y hospedaje.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218541,
+  "longitud": -79.258441,
+  "icono": "icon-hosteria.jpeg",
+  "imagenes": ["s101-hosteria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "licoreria 1",
+  "tipo": "servicios",
+  "categoria": "licoreria",
+  "descripcion": "venta de bebidas.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218542,
+  "longitud": -79.258442,
+  "icono": "icon-licoreria.jpeg",
+  "imagenes": ["s102-licoreria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "farmacia 1",
+  "tipo": "servicios",
+  "categoria": "farmacia",
+  "descripcion": "medicamentos y salud.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218543,
+  "longitud": -79.258443,
+  "icono": "icon-farmacia.jpeg",
+  "imagenes": ["s103-farmacia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "farmacia 2",
+  "tipo": "servicios",
+  "categoria": "farmacia",
+  "descripcion": "medicamentos y salud.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218544,
+  "longitud": -79.258444,
+  "icono": "icon-farmacia.jpeg",
+  "imagenes": ["s104-farmacia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "farmacia 3",
+  "tipo": "servicios",
+  "categoria": "farmacia",
+  "descripcion": "medicamentos y salud.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218545,
+  "longitud": -79.258445,
+  "icono": "icon-farmacia.jpeg",
+  "imagenes": ["s105-farmacia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "farmacia 4",
+  "tipo": "servicios",
+  "categoria": "farmacia",
+  "descripcion": "medicamentos y salud.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218546,
+  "longitud": -79.258446,
+  "icono": "icon-farmacia.jpeg",
+  "imagenes": ["s106-farmacia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "farmacia 5",
+  "tipo": "servicios",
+  "categoria": "farmacia",
+  "descripcion": "medicamentos y salud.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218547,
+  "longitud": -79.258447,
+  "icono": "icon-farmacia.jpeg",
+  "imagenes": ["s107-farmacia.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "celulares 1",
+  "tipo": "servicios",
+  "categoria": "celulares",
+  "descripcion": "servicio tecnico y accesorios.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218548,
+  "longitud": -79.258448,
+  "icono": "icon-celulares.jpeg",
+  "imagenes": ["s108-celulares.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "canchas futbol 1",
+  "tipo": "servicios",
+  "categoria": "canchas-futbol",
+  "descripcion": "recreacion deportiva.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218549,
+  "longitud": -79.258449,
+  "icono": "icon-canchas-futbol.jpeg",
+  "imagenes": ["s109-futbol.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "canchas futbol 2",
+  "tipo": "servicios",
+  "categoria": "canchas-futbol",
+  "descripcion": "recreacion deportiva.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218550,
+  "longitud": -79.258450,
+  "icono": "icon-canchas-futbol.jpeg",
+  "imagenes": ["s110-futbol.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "canchas futbol 3",
+  "tipo": "servicios",
+  "categoria": "canchas-futbol",
+  "descripcion": "recreacion deportiva.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218551,
+  "longitud": -79.258451,
+  "icono": "icon-canchas-futbol.jpeg",
+  "imagenes": ["s111-futbol.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "canchas voley 1",
+  "tipo": "servicios",
+  "categoria": "canchas-voley",
+  "descripcion": "recreacion deportiva.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218552,
+  "longitud": -79.258452,
+  "icono": "icon-canchas-voley.jpeg",
+  "imagenes": ["s112-voley.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "canchas voley 2",
+  "tipo": "servicios",
+  "categoria": "canchas-voley",
+  "descripcion": "recreacion deportiva.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218553,
+  "longitud": -79.258453,
+  "icono": "icon-canchas-voley.jpeg",
+  "imagenes": ["s113-voley.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "discoteca 1",
+  "tipo": "servicios",
+  "categoria": "discoteca",
+  "descripcion": "vida nocturna.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218554,
+  "longitud": -79.258454,
+  "icono": "icon-discoteca.jpeg",
+  "imagenes": ["s114-discoteca.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "vulcanizadora 1",
+  "tipo": "servicios",
+  "categoria": "vulcanizadora",
+  "descripcion": "reparacion de llantas.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218555,
+  "longitud": -79.258455,
+  "icono": "icon-vulcanizadora.jpeg",
+  "imagenes": ["s115-vulcanizadora.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "comercial 1",
+  "tipo": "servicios",
+  "categoria": "comercial",
+  "descripcion": "venta general de productos.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218556,
+  "longitud": -79.258456,
+  "icono": "icon-comercial.jpeg",
+  "imagenes": ["s116-comercial.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "piscina 1",
+  "tipo": "servicios",
+  "categoria": "piscina",
+  "descripcion": "recreacion acuática.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218557,
+  "longitud": -79.258457,
+  "icono": "icon-piscina.jpeg",
+  "imagenes": ["s117-piscina.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "educacion 1",
+  "tipo": "servicios",
+  "categoria": "educacion",
+  "descripcion": "centro educativo.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218558,
+  "longitud": -79.258458,
+  "icono": "icon-educacion.jpeg",
+  "imagenes": ["s118-educacion.jpg"],
+  "destacado": false
+}
+        [
+{
+  "nombre": "educacion 2",
+  "tipo": "servicios",
+  "categoria": "educacion",
+  "descripcion": "centro educativo.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218559,
+  "longitud": -79.258459,
+  "icono": "icon-educacion.jpeg",
+  "imagenes": ["s119-educacion.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "educacion 3",
+  "tipo": "servicios",
+  "categoria": "educacion",
+  "descripcion": "centro educativo.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218560,
+  "longitud": -79.258460,
+  "icono": "icon-educacion.jpeg",
+  "imagenes": ["s120-educacion.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "motos 1",
+  "tipo": "servicios",
+  "categoria": "motos",
+  "descripcion": "reparacion de motos.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218561,
+  "longitud": -79.258461,
+  "icono": "icon-motos.jpeg",
+  "imagenes": ["s121-motos.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "centro de eventos 1",
+  "tipo": "servicios",
+  "categoria": "centro-eventos",
+  "descripcion": "eventos sociales.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218562,
+  "longitud": -79.258462,
+  "icono": "icon-centro-eventos.jpeg",
+  "imagenes": ["s122-eventos.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "fabrica de caña 1",
+  "tipo": "servicios",
+  "categoria": "fabrica-cana",
+  "descripcion": "produccion de caña.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218563,
+  "longitud": -79.258463,
+  "icono": "icon-fabrica-cana.jpeg",
+  "imagenes": ["s123-cana.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "asadero de pollo 1",
+  "tipo": "servicios",
+  "categoria": "asadero-pollo",
+  "descripcion": "pollo asado.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218564,
+  "longitud": -79.258464,
+  "icono": "icon-asadero-pollo.jpeg",
+  "imagenes": ["s124-pollo.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "asadero de pollo 2",
+  "tipo": "servicios",
+  "categoria": "asadero-pollo",
+  "descripcion": "pollo asado.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218565,
+  "longitud": -79.258465,
+  "icono": "icon-asadero-pollo.jpeg",
+  "imagenes": ["s125-pollo.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "cajero automatico 1",
+  "tipo": "servicios",
+  "categoria": "cajero-automatico",
+  "descripcion": "retiro de dinero.",
+  "direccion": "av loja",
+  "telefono": "",
+  "latitud": -4.218566,
+  "longitud": -79.258466,
+  "icono": "icon-cajero.jpeg",
+  "imagenes": ["s126-cajero.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "cajero automatico 2",
+  "tipo": "servicios",
+  "categoria": "cajero-automatico",
+  "descripcion": "retiro de dinero.",
+  "direccion": "av loja",
+  "telefono": "",
+  "latitud": -4.218567,
+  "longitud": -79.258467,
+  "icono": "icon-cajero.jpeg",
+  "imagenes": ["s127-cajero.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "peluqueria 1",
+  "tipo": "servicios",
+  "categoria": "peluqueria",
+  "descripcion": "cortes y belleza.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218568,
+  "longitud": -79.258468,
+  "icono": "icon-peluqueria.jpeg",
+  "imagenes": ["s128-peluqueria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "peluqueria 2",
+  "tipo": "servicios",
+  "categoria": "peluqueria",
+  "descripcion": "cortes y belleza.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218569,
+  "longitud": -79.258469,
+  "icono": "icon-peluqueria.jpeg",
+  "imagenes": ["s129-peluqueria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "peluqueria 3",
+  "tipo": "servicios",
+  "categoria": "peluqueria",
+  "descripcion": "cortes y belleza.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218570,
+  "longitud": -79.258470,
+  "icono": "icon-peluqueria.jpeg",
+  "imagenes": ["s130-peluqueria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "peluqueria 4",
+  "tipo": "servicios",
+  "categoria": "peluqueria",
+  "descripcion": "cortes y belleza.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218571,
+  "longitud": -79.258471,
+  "icono": "icon-peluqueria.jpeg",
+  "imagenes": ["s131-peluqueria.jpg"],
+  "destacado": false
+},
+
+{
+  "nombre": "peluqueria 5",
+  "tipo": "servicios",
+  "categoria": "peluqueria",
+  "descripcion": "cortes y belleza.",
+  "direccion": "av loja",
+  "telefono": "+593959107258",
+  "latitud": -4.218572,
+  "longitud": -79.258472,
+  "icono": "icon-peluqueria.jpeg",
+  "imagenes": ["s132-peluqueria.jpg"],
+  "destacado": false
+}
+]
+]
+]
+]
 ]
