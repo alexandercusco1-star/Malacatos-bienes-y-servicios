@@ -114,13 +114,17 @@ function renderizarTodo() {
     if (!datoSeguro(item)) return;
     if (currentFilter && item.categoria !== currentFilter) return;
 
-    if (searchText) {
-      const n = (item.nombre || "").toLowerCase();
-      const d = (item.descripcion || "").toLowerCase();
-      const c = (item.categoria || "").toLowerCase();
-      if (!n.includes(searchText) && !d.includes(searchText) && !c.includes(searchText)) return;
-    }
 
+if (searchText.length > 0) {
+  const texto = `
+    ${item.nombre || ""}
+    ${item.descripcion || ""}
+    ${item.categoria || ""}
+    ${item.direccion || ""}
+  `.toLowerCase();
+
+  if (!texto.includes(searchText.toLowerCase())) return;
+}
     const icono =
       item.icono ||
       ALL.categorias[item.categoria]?.icono ||
