@@ -880,7 +880,7 @@
     "imagenes": [
       "s60-ferreteria-jara.jpg",
       "s60.1.jpg"
-    ]
+    ],
   },
   {
     "nombre": "Comercial",
@@ -895,7 +895,7 @@
     "imagenes": [
       "s61-ropa.jpg",
       "s61.1.jpg"
-    ]
+    ],
   },
   {
     "nombre": "servientrega",
@@ -941,8 +941,7 @@
       "s64-banos.jpg"
     ],
     "destacado": false
-  }
-  [
+  },
 {
   "nombre": "tienda 1",
   "tipo": "servicios",
@@ -1151,8 +1150,7 @@
   "icono": "icon-ferreteria.jpeg",
   "imagenes": ["s80-ferreteria.jpg"],
   "destacado": false
-}
-    [
+},
 {
   "nombre": "ferreteria 2",
   "tipo": "servicios",
@@ -1431,8 +1429,7 @@
   "icono": "icon-hosteria.jpeg",
   "imagenes": ["s100-hosteria.jpg"],
   "destacado": false
-}
-      [
+},
 {
   "nombre": "hosteria 3",
   "tipo": "servicios",
@@ -1683,8 +1680,7 @@
   "icono": "icon-educacion.jpeg",
   "imagenes": ["s118-educacion.jpg"],
   "destacado": false
-}
-        [
+},
 {
   "nombre": "educacion 2",
   "tipo": "servicios",
@@ -1880,8 +1876,4 @@
   "imagenes": ["s132-peluqueria.jpg"],
   "destacado": false
 }
-]
-]
-]
-]
 ]
