@@ -1292,11 +1292,11 @@
 },
 
 {
-  "nombre": "restaurante 6",
+  "nombre": "restaurante donde roller",
   "tipo": "servicios",
   "categoria": "restaurante",
   "descripcion": "comida local.",
-  "direccion": "av loja",
+  "direccion": "Manuel Ignacio Godoy y Av. Pio Montufar",
   "telefono": "+593959107258",
   "latitud": -4.218531,
   "longitud": -79.258431,
@@ -1306,11 +1306,11 @@
 },
 
 {
-  "nombre": "restaurante 7",
+  "nombre": "restaurante el grill",
   "tipo": "servicios",
   "categoria": "restaurante",
-  "descripcion": "comida local.",
-  "direccion": "av loja",
+  "descripcion": "Comida tipica y asados.",
+  "direccion": "Av. Loja diagonal a entrada a belen",
   "telefono": "+593959107258",
   "latitud": -4.218532,
   "longitud": -79.258432,
@@ -1320,11 +1320,11 @@
 },
 
 {
-  "nombre": "supermercado 1",
+  "nombre": "supermercado Economato",
   "tipo": "servicios",
   "categoria": "supermercado",
   "descripcion": "productos de consumo.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja y Av. Pio Montufar esquina",
   "telefono": "+593959107258",
   "latitud": -4.218533,
   "longitud": -79.258433,
@@ -1334,11 +1334,11 @@
 },
 
 {
-  "nombre": "supermercado 2",
+  "nombre": "supermercado Di Angel",
   "tipo": "servicios",
   "categoria": "supermercado",
   "descripcion": "productos de consumo.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja y Estupiñan esquina rumbo a la recta junto a parada vilcabamba turis",
   "telefono": "+593959107258",
   "latitud": -4.218534,
   "longitud": -79.258434,
@@ -1352,7 +1352,7 @@
   "tipo": "servicios",
   "categoria": "panaderia",
   "descripcion": "pan y pasteleria.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja rumbo a la recta junto a farmacia Economato",
   "telefono": "+593959107258",
   "latitud": -4.218535,
   "longitud": -79.258435,
@@ -1362,11 +1362,11 @@
 },
 
 {
-  "nombre": "panaderia 2",
+  "nombre": "panaderia junto villa colineal",
   "tipo": "servicios",
   "categoria": "panaderia",
   "descripcion": "pan y pasteleria.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja y Av. Pio montufar junto hostería Villa colineal",
   "telefono": "+593959107258",
   "latitud": -4.218536,
   "longitud": -79.258436,
@@ -1376,11 +1376,11 @@
 },
 
 {
-  "nombre": "panaderia 3",
+  "nombre": "panaderia h3 junto a economato",
   "tipo": "servicios",
   "categoria": "panaderia",
   "descripcion": "pan y pasteleria.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Montufar y Av. Loja junto a Economato",
   "telefono": "+593959107258",
   "latitud": -4.218537,
   "longitud": -79.258437,
@@ -1390,11 +1390,11 @@
 },
 
 {
-  "nombre": "panaderia 4",
+  "nombre": "panaderia 4 al retorno",
   "tipo": "servicios",
   "categoria": "panaderia",
   "descripcion": "pan y pasteleria.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Montufar rumbo al retorno",
   "telefono": "+593959107258",
   "latitud": -4.218538,
   "longitud": -79.258438,
@@ -1404,11 +1404,11 @@
 },
 
 {
-  "nombre": "hosteria 1",
+  "nombre": "hosteria diagonal  entrada a Calera",
   "tipo": "servicios",
   "categoria": "hosteria",
   "descripcion": "recreacion y hospedaje.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja diagonal entrada a Calera",
   "telefono": "+593959107258",
   "latitud": -4.218539,
   "longitud": -79.258439,
@@ -1418,11 +1418,11 @@
 },
 
 {
-  "nombre": "hosteria 2",
+  "nombre": "hosteria las lagunas",
   "tipo": "servicios",
   "categoria": "hosteria",
   "descripcion": "recreacion y hospedaje.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja frente a los jugos de caña",
   "telefono": "+593959107258",
   "latitud": -4.218540,
   "longitud": -79.258440,
@@ -1431,11 +1431,11 @@
   "destacado": false
 },
 {
-  "nombre": "hosteria 3",
+  "nombre": "hostería entrada a taxiche",
   "tipo": "servicios",
   "categoria": "hosteria",
   "descripcion": "recreacion y hospedaje.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja entrada a taxiche",
   "telefono": "+593959107258",
   "latitud": -4.218541,
   "longitud": -79.258441,
@@ -1445,11 +1445,11 @@
 },
 
 {
-  "nombre": "licoreria 1",
+  "nombre": "licoreria kita picas",
   "tipo": "servicios",
   "categoria": "licoreria",
   "descripcion": "venta de bebidas.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja diagonal entrada a Calera",
   "telefono": "+593959107258",
   "latitud": -4.218542,
   "longitud": -79.258442,
@@ -1459,11 +1459,11 @@
 },
 
 {
-  "nombre": "farmacia 1",
+  "nombre": "farmacia diagonal a la iglesia",
   "tipo": "servicios",
   "categoria": "farmacia",
   "descripcion": "medicamentos y salud.",
-  "direccion": "av loja",
+  "direccion": "Manuel Ignacio Godoy y Miguel Riofrio",
   "telefono": "+593959107258",
   "latitud": -4.218543,
   "longitud": -79.258443,
@@ -1473,11 +1473,11 @@
 },
 
 {
-  "nombre": "farmacia 2",
+  "nombre": "farmacia diagonal al parque",
   "tipo": "servicios",
   "categoria": "farmacia",
   "descripcion": "medicamentos y salud.",
-  "direccion": "av loja",
+  "direccion": "Manuel Ignacio Godoy y Pío Montufar",
   "telefono": "+593959107258",
   "latitud": -4.218544,
   "longitud": -79.258444,
@@ -1487,11 +1487,11 @@
 },
 
 {
-  "nombre": "farmacia 3",
+  "nombre": "farmacia diagonal al parque",
   "tipo": "servicios",
   "categoria": "farmacia",
   "descripcion": "medicamentos y salud.",
-  "direccion": "av loja",
+  "direccion": "Alejandro Bravo y Pío jaramillo",
   "telefono": "+593959107258",
   "latitud": -4.218545,
   "longitud": -79.258445,
@@ -1501,11 +1501,11 @@
 },
 
 {
-  "nombre": "farmacia 4",
+  "nombre": "farmacia frente a la iglesia",
   "tipo": "servicios",
   "categoria": "farmacia",
   "descripcion": "medicamentos y salud.",
-  "direccion": "av loja",
+  "direccion": "Frente al parque entre Alejandro Bravo y Manuel Ignacio Godoy",
   "telefono": "+593959107258",
   "latitud": -4.218546,
   "longitud": -79.258446,
@@ -1515,11 +1515,11 @@
 },
 
 {
-  "nombre": "farmacia 5",
+  "nombre": "farmacia atrás de la UPC",
   "tipo": "servicios",
   "categoria": "farmacia",
   "descripcion": "medicamentos y salud.",
-  "direccion": "av loja",
+  "direccion": "Pio Montufar atrás UPC",
   "telefono": "+593959107258",
   "latitud": -4.218547,
   "longitud": -79.258447,
