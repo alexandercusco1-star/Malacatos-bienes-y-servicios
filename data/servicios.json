@@ -1665,7 +1665,7 @@
   "longitud": -79.258457,
   "icono": "icon-piscina.jpeg",
   "imagenes": ["s117-piscina.jpg"],
-  "destacado": false
+  "destacado": false,
   "activo": false
 },
 
@@ -1777,7 +1777,7 @@
   "longitud": -79.258465,
   "icono": "icon-asadero-pollo.jpeg",
   "imagenes": ["s125-pollo.jpg"],
-  "destacado": false
+  "destacado": false,
   "activo": false
 },
 
@@ -1820,7 +1820,7 @@
   "longitud": -79.258468,
   "icono": "icon-peluqueria.jpeg",
   "imagenes": ["s128-peluqueria.jpg"],
-  "destacado": false
+  "destacado": false,
   "activo": false
 },
 
