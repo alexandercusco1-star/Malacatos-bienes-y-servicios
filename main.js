@@ -114,7 +114,7 @@ async function iniciar() {
       .filter(datoSeguro);
 
     ALL.categorias =
-      await cargar("data/categorias.json");
+  await cargar("data/categorias.json");
 
   } catch {
 
