@@ -37,9 +37,7 @@ let searchText = "";
 // 🗺️ MAPA
 const map = L.map("map").setView([-4.219167, -79.258333], 15);
 
-L.tileLayer(
-  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-).addTo(map);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
 // 🔧 HELPERS
 async function cargar(ruta) {
@@ -314,9 +312,7 @@ function renderDestacados(arr) {
         ${
           it.imagenes?.length > 1
             ? `
-              <button
-                onclick='abrirGaleria(${JSON.stringify(it.imagenes)})'
-              >
+              <button onclick='abrirGaleria(${JSON.stringify(it.imagenes)})'>
                 ${TEXTOS[LANG].verMas}
               </button>
             `
@@ -340,15 +336,7 @@ function mostrarDetalle(item) {
     Object.entries(links)
       .filter(([_, v]) => v)
       .map(([k, v]) =>
-        `
-        <a
-          href="${v}"
-          target="_blank"
-          class="bp-link"
-        >
-          ${k}
-        </a>
-        `
+        `<a href="${v}" target="_blank" class="bp-link">${k}</a>`
       )
       .join("");
 
@@ -362,23 +350,13 @@ function mostrarDetalle(item) {
 
     ${
       item.direccion
-        ? `
-          <p>
-            <b>Dirección:</b>
-            ${item.direccion}
-          </p>
-        `
+        ? `<p><b>Dirección:</b> ${item.direccion}</p>`
         : ""
     }
 
     ${
       item.telefono
-        ? `
-          <p>
-            <b>Teléfono:</b>
-            ${item.telefono}
-          </p>
-        `
+        ? `<p><b>Teléfono:</b> ${item.telefono}</p>`
         : ""
     }
 
@@ -386,11 +364,7 @@ function mostrarDetalle(item) {
 
     ${
       linksHTML
-        ? `
-          <div class="bp-links">
-            ${linksHTML}
-          </div>
-        `
+        ? `<div class="bp-links">${linksHTML}</div>`
         : ""
     }
 
