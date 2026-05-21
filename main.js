@@ -196,11 +196,17 @@ function mostrarDetalle(item) {
     .map(([k, v]) => `<a href="${v}" target="_blank" class="bp-link">${k}</a>`)
     .join("");
 
-  document.getElementById("bp-content").innerHTML = `
-    <h3>${item.nombre}</h3>
-    <p>${item.descripcion || ""}</p>
-    <p>${item.ubicacion || ""}</p>
+ 
+document.getElementById("bp-content").innerHTML = `
+  <h3>${item.nombre}</h3>
 
+  <p>${item.descripcion || ""}</p>
+
+  ${item.direccion ? `<p><b>Dirección:</b> ${item.direccion}</p>` : ""}
+
+  ${item.telefono ? `<p><b>Teléfono:</b> ${item.telefono}</p>` : ""}
+
+  <p>${item.ubicacion || ""}</p>
     ${linksHTML ? `<div class="bp-links">${linksHTML}</div>` : ""}
 
     <div class="bp-galeria">
