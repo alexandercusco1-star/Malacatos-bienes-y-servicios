@@ -37,7 +37,9 @@ let searchText = "";
 // 🗺️ MAPA
 const map = L.map("map").setView([-4.219167, -79.258333], 15);
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+L.tileLayer(
+  "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+).addTo(map);
 
 // 🔧 HELPERS
 async function cargar(ruta) {
@@ -162,23 +164,31 @@ function aplicarIdioma() {
 
 }
 
-// MAPA
+// 🗺️ MAPA
 function renderizarTodo() {
+
   markers.forEach(m => map.removeLayer(m));
+
   markers = [];
 
-  const todos = [...ALL.bienes, ...ALL.servicios];
+  const todos = [
+    ...ALL.bienes,
+    ...ALL.servicios
+  ];
 
   todos.forEach(item => {
 
     if (!datoSeguro(item)) return;
 
-    if (currentFilter && item.categoria !== currentFilter) return;
+    if (
+      currentFilter &&
+      item.categoria !== currentFilter
+    ) return;
 
-    // SOLO OCULTA LOS QUE TENGAN activo:false
+    // 👇 SOLO OCULTA LOS QUE TENGAN activo:false
     if (item.activo === false) return;
 
-    // BUSCADOR
+    // 🔍 BUSCADOR
     if (searchText.length > 0) {
 
       const texto = `
@@ -188,16 +198,27 @@ function renderizarTodo() {
         ${item.direccion || ""}
       `.toLowerCase();
 
-      if (!texto.includes(searchText.toLowerCase())) return;
+      if (
+        !texto.includes(
+          searchText.toLowerCase()
+        )
+      ) return;
+
     }
 
-    // ICONO
+    // 🧹 LIMPIAR CATEGORÍA
+    const categoriaLimpia =
+      String(item.categoria || "")
+        .trim()
+        .toLowerCase();
+
+    // 🖼️ ICONO
     const icono =
       item.icono ||
-      ALL.categorias[item.categoria]?.icono ||
+      ALL.categorias[categoriaLimpia]?.icono ||
       "icon-default.jpeg";
 
-    // CREAR MARCADOR
+    // 📍 CREAR MARCADOR
     const marker = L.marker(
       [item.latitud, item.longitud],
       {
@@ -230,6 +251,7 @@ function renderizarTodo() {
   renderDestacados(
     todos.filter(x => x.destacado)
   );
+
 }
 
 // 📍 MOVER ÍCONO
@@ -283,9 +305,10 @@ function renderDestacados(arr) {
     c.innerHTML += `
       <div class="tarjeta">
 
-        ${img
-          ? `<img src="${img}">`
-          : ""
+        ${
+          img
+            ? `<img src="${img}">`
+            : ""
         }
 
         <h3>${it.nombre}</h3>
@@ -440,7 +463,9 @@ function generarFiltros() {
       const btn =
         document.createElement("button");
 
-      btn.textContent = cat;
+      // 👇 MÁS BONITO
+      btn.textContent =
+        cat.replaceAll("-", " ");
 
       btn.onclick = () => {
 
@@ -474,7 +499,7 @@ function pintarLeyenda() {
 
           <img src="data/${v.icono}">
 
-          ${k}
+          ${k.replaceAll("-", " ")}
 
         </div>
       `;
