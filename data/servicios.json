@@ -917,7 +917,7 @@
     "tipo": "servicios",
     "categoria": "internet",
     "descripcion": "Servicio de internet.",
-    "direccion": "Manuel Ignacio Godoy y Miguel Riofrio,
+    "direccion": "Manuel Ignacio Godoy y Miguel Riofrio",
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
@@ -936,7 +936,7 @@
     "telefono": "+593959107258",
     "latitud": -4.218465677,
     "longitud": -79.258359,
-    "icono": "icon-baños.jpeg",
+    "icono": "icon-banos.jpeg",
     "imagenes": [
       "s64-baños.jpg"
     ],
