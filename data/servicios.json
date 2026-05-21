@@ -1666,6 +1666,7 @@
   "icono": "icon-piscina.jpeg",
   "imagenes": ["s117-piscina.jpg"],
   "destacado": false
+  "activo": false
 },
 
 {
@@ -1777,6 +1778,7 @@
   "icono": "icon-asadero-pollo.jpeg",
   "imagenes": ["s125-pollo.jpg"],
   "destacado": false
+  "activo": false
 },
 
 {
@@ -1819,6 +1821,7 @@
   "icono": "icon-peluqueria.jpeg",
   "imagenes": ["s128-peluqueria.jpg"],
   "destacado": false
+  "activo": false
 },
 
 {
