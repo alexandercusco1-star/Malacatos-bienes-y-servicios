@@ -77,8 +77,6 @@ function iconoDe(ruta) {
     iconSize: [28, 28],
     iconAnchor: [14, 28]
   });
-
-}
 }
 // 📦 ESTADO
 let ALL = {
