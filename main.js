@@ -108,12 +108,11 @@ function renderizarTodo() {
   markers.forEach(m => map.removeLayer(m));
   markers = [];
 
-  const todos = [...ALL.bienes, ...ALL.servicios];
-
-  todos.forEach(item => {
-    if (!datoSeguro(item)) return;
-    if (currentFilter && item.categoria !== currentFilter) return;
-
+  const todos = [...ALL.bienes, 
+                 todos.forEach(item => {
+  if (!datoSeguro(item)) return;
+  if (currentFilter && item.categoria !== currentFilter) return;
+  if (item.activo === false) return;
 
 if (searchText.length > 0) {
   const texto = `
