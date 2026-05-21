@@ -1,3 +1,4 @@
+
 // 🌍 IDIOMAS
 let LANG = "es";
 
@@ -15,6 +16,7 @@ const TEXTOS = {
     claveError: "Clave incorrecta",
     mover: "Toca el mapa para mover este ícono"
   },
+
   en: {
     titulo: "Malacatos",
     subtitulo: "Tourist places and services",
@@ -40,13 +42,16 @@ L.tileLayer(
   "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 ).addTo(map);
 
-// 🛠️ HELPERS
+// 📦 HELPERS
 async function cargar(ruta) {
+
   const r = await fetch(ruta);
+
   return r.json();
 }
 
 function datoSeguro(item) {
+
   return (
     item &&
     item.nombre &&
@@ -57,14 +62,15 @@ function datoSeguro(item) {
 }
 
 function iconoDe(ruta) {
+
   return L.icon({
     iconUrl: "data/" + ruta,
     iconSize: [28, 28],
-    iconAnchor: [14, 28],
+    iconAnchor: [14, 28]
   });
 }
 
-// 📦 ESTADO
+// 📌 ESTADO
 let ALL = {
   bienes: [],
   servicios: [],
@@ -72,7 +78,9 @@ let ALL = {
 };
 
 let markers = [];
+
 let currentFilter = null;
+
 let editMode = false;
 
 const CLAVE_EDICION = "2747842663";
@@ -81,6 +89,7 @@ let markerSeleccionado = null;
 
 // 🖼️ GALERÍA
 let currentGallery = [];
+
 let galleryIndex = 0;
 
 // 🚀 INICIO
@@ -109,9 +118,13 @@ async function iniciar() {
   }
 
   generarFiltros();
+
   renderizarTodo();
+
   pintarLeyenda();
+
   bindControls();
+
   aplicarIdioma();
 }
 
@@ -144,7 +157,7 @@ function aplicarIdioma() {
     t.verTodos;
 }
 
-// 🗺️ MAPA
+// 🗺️ RENDERIZAR MAPA
 function renderizarTodo() {
 
   markers.forEach(m => map.removeLayer(m));
@@ -165,7 +178,7 @@ function renderizarTodo() {
       item.categoria !== currentFilter
     ) return;
 
-    // 👇 SOLO OCULTA SI activo ES false
+    // 👇 SOLO OCULTA SI activo:false
     if (item.activo === false) return;
 
     // 🔍 BUSCADOR
@@ -185,13 +198,18 @@ function renderizarTodo() {
       ) return;
     }
 
+    // 🖼️ ICONO
     const icono =
       item.icono ||
       ALL.categorias[item.categoria]?.icono ||
       "icon-default.jpeg";
 
+    // 📍 MARKER
     const marker = L.marker(
-      [item.latitud, item.longitud],
+      [
+        item.latitud,
+        item.longitud
+      ],
       {
         icon: iconoDe(icono)
       }
@@ -199,6 +217,7 @@ function renderizarTodo() {
 
     marker.__data = item;
 
+    // 🖱️ CLICK
     marker.on("click", () => {
 
       if (editMode) {
@@ -216,6 +235,7 @@ function renderizarTodo() {
     markers.push(marker);
   });
 
+  // ⭐ DESTACADOS
   renderDestacados(
     todos.filter(x => x.destacado)
   );
@@ -224,8 +244,10 @@ function renderizarTodo() {
 // 📍 MOVER ÍCONO
 map.on("click", e => {
 
-  if (!editMode || !markerSeleccionado)
-    return;
+  if (
+    !editMode ||
+    !markerSeleccionado
+  ) return;
 
   const lat =
     e.latlng.lat.toFixed(6);
@@ -233,10 +255,16 @@ map.on("click", e => {
   const lng =
     e.latlng.lng.toFixed(6);
 
-  markerSeleccionado.setLatLng([lat, lng]);
+  markerSeleccionado.setLatLng([
+    lat,
+    lng
+  ]);
 
-  markerSeleccionado.__data.latitud = lat;
-  markerSeleccionado.__data.longitud = lng;
+  markerSeleccionado.__data.latitud =
+    lat;
+
+  markerSeleccionado.__data.longitud =
+    lng;
 
   alert(
     `Coordenadas:\nLat: ${lat}\nLng: ${lng}`
@@ -265,14 +293,17 @@ function renderDestacados(arr) {
     c.innerHTML += `
       <div class="tarjeta">
 
-        ${img
-          ? `<img src="${img}">`
-          : ""
+        ${
+          img
+            ? `<img src="${img}">`
+            : ""
         }
 
         <h3>${it.nombre}</h3>
 
-        <p>${it.descripcion || ""}</p>
+        <p>
+          ${it.descripcion || ""}
+        </p>
 
         ${
           it.imagenes?.length > 1
@@ -291,90 +322,109 @@ function renderDestacados(arr) {
   });
 }
 
-// 📄 DETALLE + LINKS
+// 📄 DETALLE
 function mostrarDetalle(item) {
 
-  const links = item.links || {};
+  const links =
+    item.links || {};
 
-  const linksHTML = Object.entries(links)
-    .filter(([_, v]) => v)
-    .map(([k, v]) =>
-      `<a href="${v}" target="_blank" class="bp-link">${k}</a>`
-    )
-    .join("");
+  const linksHTML =
+    Object.entries(links)
+      .filter(([_, v]) => v)
+      .map(([k, v]) => `
+        <a
+          href="${v}"
+          target="_blank"
+          class="bp-link"
+        >
+          ${k}
+        </a>
+      `)
+      .join("");
 
-  let html = `
+  document.getElementById(
+    "bp-content"
+  ).innerHTML = `
+
     <h3>${item.nombre}</h3>
 
-    <p>${item.descripcion || ""}</p>
-  `;
+    <p>
+      ${item.descripcion || ""}
+    </p>
 
-  if (item.direccion) {
-    html += `
-      <p>
-        <b>Dirección:</b>
-        ${item.direccion}
-      </p>
-    `;
-  }
+    ${
+      item.direccion
+        ? `
+          <p>
+            <b>Dirección:</b>
+            ${item.direccion}
+          </p>
+        `
+        : ""
+    }
 
-  if (item.telefono) {
-    html += `
-      <p>
-        <b>Teléfono:</b>
-        ${item.telefono}
-      </p>
-    `;
-  }
+    ${
+      item.telefono
+        ? `
+          <p>
+            <b>Teléfono:</b>
+            ${item.telefono}
+          </p>
+        `
+        : ""
+    }
 
-  html += `
-    <p>${item.ubicacion || ""}</p>
-  `;
+    <p>
+      ${item.ubicacion || ""}
+    </p>
 
-  if (linksHTML) {
-    html += `
-      <div class="bp-links">
-        ${linksHTML}
-      </div>
-    `;
-  }
+    ${
+      linksHTML
+        ? `
+          <div class="bp-links">
+            ${linksHTML}
+          </div>
+        `
+        : ""
+    }
 
-  html += `
     <div class="bp-galeria">
 
-      ${(item.imagenes || []).map(
-        i => `
+      ${(item.imagenes || [])
+        .map(i => `
           <img
             src="data/${i}"
             onclick='abrirGaleria(${JSON.stringify(item.imagenes)})'
           >
-        `
-      ).join("")}
+        `)
+        .join("")}
 
     </div>
   `;
 
-  document.getElementById("bp-content").innerHTML =
-    html;
-
-  document.getElementById("bottom-panel")
+  document
+    .getElementById("bottom-panel")
     .classList.add("open");
 }
 
-// 🖼️ GALERÍA
+// 🖼️ ABRIR GALERÍA
 function abrirGaleria(imagenes) {
 
   currentGallery = imagenes;
 
   galleryIndex = 0;
 
-  document.getElementById("lb-img").src =
+  document.getElementById(
+    "lb-img"
+  ).src =
     "data/" + imagenes[0];
 
-  document.getElementById("lightbox")
+  document
+    .getElementById("lightbox")
     .classList.add("open");
 }
 
+// ⬅️➡️ CAMBIAR IMAGEN
 function cambiarImg(dir) {
 
   galleryIndex =
@@ -382,26 +432,40 @@ function cambiarImg(dir) {
       galleryIndex +
       dir +
       currentGallery.length
-    ) % currentGallery.length;
+    ) %
+    currentGallery.length;
 
-  document.getElementById("lb-img").src =
-    "data/" + currentGallery[galleryIndex];
+  document.getElementById(
+    "lb-img"
+  ).src =
+    "data/" +
+    currentGallery[galleryIndex];
 }
 
-document.getElementById("lb-close").onclick = () =>
-  document.getElementById("lightbox")
+// ❌ CERRAR GALERÍA
+document.getElementById(
+  "lb-close"
+).onclick = () => {
+
+  document
+    .getElementById("lightbox")
     .classList.remove("open");
+};
 
 // 🎛️ FILTROS
 function generarFiltros() {
 
   const f =
-    document.getElementById("filters");
+    document.getElementById(
+      "filters"
+    );
 
   f.innerHTML = "";
 
   const b =
-    document.createElement("button");
+    document.createElement(
+      "button"
+    );
 
   b.textContent = "TODOS";
 
@@ -414,26 +478,29 @@ function generarFiltros() {
 
   f.appendChild(b);
 
-  Object.keys(ALL.categorias)
-    .forEach(cat => {
+  Object.keys(
+    ALL.categorias
+  ).forEach(cat => {
 
-      const btn =
-        document.createElement("button");
+    const btn =
+      document.createElement(
+        "button"
+      );
 
-      btn.textContent = cat;
+    btn.textContent = cat;
 
-      btn.onclick = () => {
+    btn.onclick = () => {
 
-        currentFilter = cat;
+      currentFilter = cat;
 
-        renderizarTodo();
-      };
+      renderizarTodo();
+    };
 
-      f.appendChild(btn);
-    });
+    f.appendChild(btn);
+  });
 }
 
-// 📚 LEYENDA
+// 📖 LEYENDA
 function pintarLeyenda() {
 
   const c =
@@ -443,49 +510,59 @@ function pintarLeyenda() {
 
   c.innerHTML = "";
 
-  Object.entries(ALL.categorias)
-    .forEach(([k, v]) => {
+  Object.entries(
+    ALL.categorias
+  ).forEach(([k, v]) => {
 
-      c.innerHTML += `
-        <div class="leyenda-item">
-          <img src="data/${v.icono}">
-          ${k}
-        </div>
-      `;
-    });
+    c.innerHTML += `
+      <div class="leyenda-item">
+
+        <img src="data/${v.icono}">
+
+        ${k}
+
+      </div>
+    `;
+  });
 }
 
 // 🎮 CONTROLES
 function bindControls() {
 
   // 🔐 MODO EDICIÓN
-  document.getElementById("btn-edit")
-    .onclick = () => {
+  document.getElementById(
+    "btn-edit"
+  ).onclick = () => {
 
-      if (!editMode) {
+    if (!editMode) {
 
-        const clave =
-          prompt("Clave:");
+      const clave =
+        prompt("Clave:");
 
-        if (
-          clave !== CLAVE_EDICION
-        ) {
+      if (
+        clave !==
+        CLAVE_EDICION
+      ) {
 
-          alert(
-            TEXTOS[LANG].claveError
-          );
+        alert(
+          TEXTOS[LANG]
+          .claveError
+        );
 
-          return;
-        }
+        return;
       }
+    }
 
-      editMode = !editMode;
+    editMode = !editMode;
 
-      aplicarIdioma();
-    };
+    aplicarIdioma();
+  };
 
   // 🔍 BUSCADOR
-  document.getElementById("search-input")
+  document
+    .getElementById(
+      "search-input"
+    )
     .addEventListener(
       "input",
       e => {
@@ -500,20 +577,30 @@ function bindControls() {
     );
 
   // ❌ CERRAR PANEL
-  document.getElementById("bp-close")
-    .onclick = () => {
+  document.getElementById(
+    "bp-close"
+  ).onclick = () => {
 
-      document.getElementById(
+    document
+      .getElementById(
         "bottom-panel"
-      ).classList.remove("open");
-    };
+      )
+      .classList.remove(
+        "open"
+      );
+  };
 
-  // 📚 ABRIR LEYENDA
-  document.getElementById("leyenda-bar")
-    .onclick = () => {
+  // 📖 LEYENDA
+  document.getElementById(
+    "leyenda-bar"
+  ).onclick = () => {
 
-      document.getElementById(
+    document
+      .getElementById(
         "leyenda-drawer"
-      ).classList.toggle("open");
-    };
+      )
+      .classList.toggle(
+        "open"
+      );
+  };
 }
