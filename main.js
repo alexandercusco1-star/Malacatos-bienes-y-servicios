@@ -108,22 +108,26 @@ function renderizarTodo() {
   markers.forEach(m => map.removeLayer(m));
   markers = [];
 
-  const todos = [...ALL.bienes, 
-                 todos.forEach(item => {
-  if (!datoSeguro(item)) return;
-  if (currentFilter && item.categoria !== currentFilter) return;
-  if (item.activo === false) return;
+  const todos = [...ALL.bienes, ...ALL.servicios];
 
-if (searchText.length > 0) {
-  const texto = `
-    ${item.nombre || ""}
-    ${item.descripcion || ""}
-    ${item.categoria || ""}
-    ${item.direccion || ""}
-  `.toLowerCase();
+  todos.forEach(item => {
+    if (!datoSeguro(item)) return;
+    if (currentFilter && item.categoria !== currentFilter) return;
 
-  if (!texto.includes(searchText.toLowerCase())) return;
-}
+    // 👇 SOLO LOS QUE TENGAN activo:false NO APARECEN
+    if (item.activo === false) return;
+
+    if (searchText.length > 0) {
+      const texto = `
+        ${item.nombre || ""}
+        ${item.descripcion || ""}
+        ${item.categoria || ""}
+        ${item.direccion || ""}
+      `.toLowerCase();
+
+      if (!texto.includes(searchText.toLowerCase())) return;
+    }
+
     const icono =
       item.icono ||
       ALL.categorias[item.categoria]?.icono ||
@@ -173,14 +177,18 @@ function renderDestacados(arr) {
 
   arr.forEach(it => {
     const img = it.imagenes?.[0] ? "data/" + it.imagenes[0] : "";
+
     c.innerHTML += `
       <div class="tarjeta">
         ${img ? `<img src="${img}">` : ""}
         <h3>${it.nombre}</h3>
         <p>${it.descripcion || ""}</p>
+
         ${
           it.imagenes?.length > 1
-            ? `<button onclick='abrirGaleria(${JSON.stringify(it.imagenes)})'>${TEXTOS[LANG].verMas}</button>`
+            ? `<button onclick='abrirGaleria(${JSON.stringify(it.imagenes)})'>
+                ${TEXTOS[LANG].verMas}
+               </button>`
             : ""
         }
       </div>
@@ -191,30 +199,51 @@ function renderDestacados(arr) {
 // DETALLE + LINKS
 function mostrarDetalle(item) {
   const links = item.links || {};
+
   const linksHTML = Object.entries(links)
     .filter(([_, v]) => v)
-    .map(([k, v]) => `<a href="${v}" target="_blank" class="bp-link">${k}</a>`)
+    .map(([k, v]) =>
+      `<a href="${v}" target="_blank" class="bp-link">${k}</a>`
+    )
     .join("");
 
- 
-document.getElementById("bp-content").innerHTML = `
-  <h3>${item.nombre}</h3>
+  document.getElementById("bp-content").innerHTML = `
+    <h3>${item.nombre}</h3>
 
-  <p>${item.descripcion || ""}</p>
+    <p>${item.descripcion || ""}</p>
 
-  ${item.direccion ? `<p><b>Dirección:</b> ${item.direccion}</p>` : ""}
+    ${
+      item.direccion
+        ? `<p><b>Dirección:</b> ${item.direccion}</p>`
+        : ""
+    }
 
-  ${item.telefono ? `<p><b>Teléfono:</b> ${item.telefono}</p>` : ""}
+    ${
+      item.telefono
+        ? `<p><b>Teléfono:</b> ${item.telefono}</p>`
+        : ""
+    }
 
-  <p>${item.ubicacion || ""}</p>
-    ${linksHTML ? `<div class="bp-links">${linksHTML}</div>` : ""}
+    <p>${item.ubicacion || ""}</p>
+
+    ${
+      linksHTML
+        ? `<div class="bp-links">${linksHTML}</div>`
+        : ""
+    }
 
     <div class="bp-galeria">
       ${(item.imagenes || []).map(
-        i => `<img src="data/${i}" onclick='abrirGaleria(${JSON.stringify(item.imagenes)})'>`
+        i => `
+          <img
+            src="data/${i}"
+            onclick='abrirGaleria(${JSON.stringify(item.imagenes)})'
+          >
+        `
       ).join("")}
     </div>
   `;
+
   document.getElementById("bottom-panel").classList.add("open");
 }
 
@@ -222,13 +251,19 @@ document.getElementById("bp-content").innerHTML = `
 function abrirGaleria(imagenes) {
   currentGallery = imagenes;
   galleryIndex = 0;
+
   document.getElementById("lb-img").src = "data/" + imagenes[0];
+
   document.getElementById("lightbox").classList.add("open");
 }
 
 function cambiarImg(dir) {
-  galleryIndex = (galleryIndex + dir + currentGallery.length) % currentGallery.length;
-  document.getElementById("lb-img").src = "data/" + currentGallery[galleryIndex];
+  galleryIndex =
+    (galleryIndex + dir + currentGallery.length) %
+    currentGallery.length;
+
+  document.getElementById("lb-img").src =
+    "data/" + currentGallery[galleryIndex];
 }
 
 document.getElementById("lb-close").onclick = () =>
@@ -240,20 +275,26 @@ function generarFiltros() {
   f.innerHTML = "";
 
   const b = document.createElement("button");
+
   b.textContent = "TODOS";
+
   b.onclick = () => {
     currentFilter = null;
     renderizarTodo();
   };
+
   f.appendChild(b);
 
   Object.keys(ALL.categorias).forEach(cat => {
     const btn = document.createElement("button");
+
     btn.textContent = cat;
+
     btn.onclick = () => {
       currentFilter = cat;
       renderizarTodo();
     };
+
     f.appendChild(btn);
   });
 }
@@ -261,34 +302,52 @@ function generarFiltros() {
 // LEYENDA
 function pintarLeyenda() {
   const c = document.getElementById("leyenda-items");
+
   c.innerHTML = "";
+
   Object.entries(ALL.categorias).forEach(([k, v]) => {
-    c.innerHTML += `<div class="leyenda-item"><img src="data/${v.icono}">${k}</div>`;
+    c.innerHTML += `
+      <div class="leyenda-item">
+        <img src="data/${v.icono}">
+        ${k}
+      </div>
+    `;
   });
 }
 
 // CONTROLES
 function bindControls() {
+
   document.getElementById("btn-edit").onclick = () => {
+
     if (!editMode) {
+
       const clave = prompt("Clave:");
+
       if (clave !== CLAVE_EDICION) {
         alert(TEXTOS[LANG].claveError);
         return;
       }
     }
+
     editMode = !editMode;
+
     aplicarIdioma();
   };
 
-  document.getElementById("search-input").addEventListener("input", e => {
-    searchText = e.target.value.toLowerCase().trim();
-    renderizarTodo();
-  });
+  document.getElementById("search-input")
+    .addEventListener("input", e => {
+
+      searchText = e.target.value.toLowerCase().trim();
+
+      renderizarTodo();
+    });
 
   document.getElementById("bp-close").onclick = () =>
-    document.getElementById("bottom-panel").classList.remove("open");
+    document.getElementById("bottom-panel")
+      .classList.remove("open");
 
   document.getElementById("leyenda-bar").onclick = () =>
-    document.getElementById("leyenda-drawer").classList.toggle("open");
+    document.getElementById("leyenda-drawer")
+      .classList.toggle("open");
 }
