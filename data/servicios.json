@@ -1529,11 +1529,11 @@
 },
 
 {
-  "nombre": "celulares 1",
+  "nombre": "celulares Alex",
   "tipo": "servicios",
   "categoria": "celulares",
   "descripcion": "servicio tecnico y accesorios.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja y Lauro Coronel",
   "telefono": "+593959107258",
   "latitud": -4.218548,
   "longitud": -79.258448,
@@ -1543,11 +1543,11 @@
 },
 
 {
-  "nombre": "canchas futbol 1",
+  "nombre": "Canchas futbol Bombonenera",
   "tipo": "servicios",
   "categoria": "canchas-futbol",
   "descripcion": "recreacion deportiva.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja rumbo la recta",
   "telefono": "+593959107258",
   "latitud": -4.218549,
   "longitud": -79.258449,
@@ -1557,11 +1557,11 @@
 },
 
 {
-  "nombre": "canchas futbol 2",
+  "nombre": "canchas futbol Trinidad ",
   "tipo": "servicios",
   "categoria": "canchas-futbol",
   "descripcion": "recreacion deportiva.",
-  "direccion": "av loja",
+  "direccion": "Montufar la trinidad",
   "telefono": "+593959107258",
   "latitud": -4.218550,
   "longitud": -79.258450,
@@ -1571,11 +1571,11 @@
 },
 
 {
-  "nombre": "canchas futbol 3",
+  "nombre": "canchas futbol La pampa ",
   "tipo": "servicios",
   "categoria": "canchas-futbol",
   "descripcion": "recreacion deportiva.",
-  "direccion": "av loja",
+  "direccion": "Entrada a Calera por la Av. Loja a 300m",
   "telefono": "+593959107258",
   "latitud": -4.218551,
   "longitud": -79.258451,
@@ -1585,11 +1585,11 @@
 },
 
 {
-  "nombre": "canchas voley 1",
+  "nombre": "canchas voley tío de jairo",
   "tipo": "servicios",
   "categoria": "canchas-voley",
   "descripcion": "recreacion deportiva.",
-  "direccion": "av loja",
+  "direccion": "Manuel Ingnacio Godoy diagonal a la iglesia",
   "telefono": "+593959107258",
   "latitud": -4.218552,
   "longitud": -79.258452,
@@ -1599,11 +1599,11 @@
 },
 
 {
-  "nombre": "canchas voley 2",
+  "nombre": "canchas voley don paredes",
   "tipo": "servicios",
   "categoria": "canchas-voley",
   "descripcion": "recreacion deportiva.",
-  "direccion": "av loja",
+  "direccion": "Manuel Ignacio Godoy diagonal al mercado",
   "telefono": "+593959107258",
   "latitud": -4.218553,
   "longitud": -79.258453,
@@ -1613,11 +1613,11 @@
 },
 
 {
-  "nombre": "discoteca 1",
+  "nombre": "discoteca Level one",
   "tipo": "servicios",
   "categoria": "discoteca",
   "descripcion": "vida nocturna.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja diagonal a bomberos Loja",
   "telefono": "+593959107258",
   "latitud": -4.218554,
   "longitud": -79.258454,
@@ -1641,11 +1641,11 @@
 },
 
 {
-  "nombre": "comercial 1",
+  "nombre": "comercial atrás de la UPC",
   "tipo": "servicios",
   "categoria": "comercial",
   "descripcion": "venta general de productos.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja",
   "telefono": "+593959107258",
   "latitud": -4.218556,
   "longitud": -79.258456,
@@ -1669,11 +1669,11 @@
 },
 
 {
-  "nombre": "educacion 1",
+  "nombre": "educación atrás y diagonal a la iglesia ",
   "tipo": "servicios",
   "categoria": "educacion",
   "descripcion": "centro educativo.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja y Av. Pio Jaramillo",
   "telefono": "+593959107258",
   "latitud": -4.218558,
   "longitud": -79.258458,
@@ -1682,11 +1682,11 @@
   "destacado": false
 },
 {
-  "nombre": "educacion 2",
+  "nombre": "educacion diagonal a la UPC",
   "tipo": "servicios",
   "categoria": "educacion",
   "descripcion": "centro educativo.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Montufar y Alejandro Bravo",
   "telefono": "+593959107258",
   "latitud": -4.218559,
   "longitud": -79.258459,
@@ -1696,11 +1696,11 @@
 },
 
 {
-  "nombre": "educacion 3",
+  "nombre": "educación Victor Mercante",
   "tipo": "servicios",
   "categoria": "educacion",
   "descripcion": "centro educativo.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja rumbo a la recta",
   "telefono": "+593959107258",
   "latitud": -4.218560,
   "longitud": -79.258460,
@@ -1710,11 +1710,11 @@
 },
 
 {
-  "nombre": "motos 1",
+  "nombre": "motos ",
   "tipo": "servicios",
   "categoria": "motos",
   "descripcion": "reparacion de motos.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Jaramillo y Alejandro Bravo atrás de la iglesia",
   "telefono": "+593959107258",
   "latitud": -4.218561,
   "longitud": -79.258461,
@@ -1724,11 +1724,11 @@
 },
 
 {
-  "nombre": "centro de eventos 1",
+  "nombre": "centro de eventos junto a comercial El Sol",
   "tipo": "servicios",
   "categoria": "centro-eventos",
   "descripcion": "eventos sociales.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja",
   "telefono": "+593959107258",
   "latitud": -4.218562,
   "longitud": -79.258462,
@@ -1738,11 +1738,11 @@
 },
 
 {
-  "nombre": "fabrica de caña 1",
+  "nombre": "fabrica de caña ocampo",
   "tipo": "servicios",
   "categoria": "fabrica-cana",
   "descripcion": "produccion de caña.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja ",
   "telefono": "+593959107258",
   "latitud": -4.218563,
   "longitud": -79.258463,
@@ -1752,11 +1752,11 @@
 },
 
 {
-  "nombre": "asadero de pollo 1",
+  "nombre": "asadero de pollo junto a valto",
   "tipo": "servicios",
   "categoria": "asadero-pollo",
   "descripcion": "pollo asado.",
-  "direccion": "av loja",
+  "direccion": "Av. Loja rumbo a la recta",
   "telefono": "+593959107258",
   "latitud": -4.218564,
   "longitud": -79.258464,
@@ -1766,11 +1766,11 @@
 },
 
 {
-  "nombre": "asadero de pollo 2",
+  "nombre": "asadero de pollo doña Mary atrás y diagonal a la iglesia ",
   "tipo": "servicios",
   "categoria": "asadero-pollo",
   "descripcion": "pollo asado.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Jaramillo ",
   "telefono": "+593959107258",
   "latitud": -4.218565,
   "longitud": -79.258465,
@@ -1780,12 +1780,12 @@
 },
 
 {
-  "nombre": "cajero automatico 1",
+  "nombre": "cajero automatico B. Loja",
   "tipo": "servicios",
   "categoria": "cajero-automatico",
   "descripcion": "retiro de dinero.",
-  "direccion": "av loja",
-  "telefono": "",
+  "direccion": "Av. Loja rumbo a la recta",
+  "telefono": "098876577",
   "latitud": -4.218566,
   "longitud": -79.258466,
   "icono": "icon-cajero.jpeg",
@@ -1794,12 +1794,12 @@
 },
 
 {
-  "nombre": "cajero automatico 2",
+  "nombre": "cajero automatico B. Cav",
   "tipo": "servicios",
   "categoria": "cajero-automatico",
   "descripcion": "retiro de dinero.",
-  "direccion": "av loja",
-  "telefono": "",
+  "direccion": "Av. Loja rumbo a la recta",
+  "telefono": "098765444455",
   "latitud": -4.218567,
   "longitud": -79.258467,
   "icono": "icon-cajero.jpeg",
@@ -1808,11 +1808,11 @@
 },
 
 {
-  "nombre": "peluqueria 1",
+  "nombre": "peluqueria Rocio",
   "tipo": "servicios",
   "categoria": "peluqueria",
   "descripcion": "cortes y belleza.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Jaramillo y Manuel Ignacio Godoy esquina",
   "telefono": "+593959107258",
   "latitud": -4.218568,
   "longitud": -79.258468,
@@ -1822,11 +1822,11 @@
 },
 
 {
-  "nombre": "peluqueria 2",
+  "nombre": "peluqueria y Spa ",
   "tipo": "servicios",
   "categoria": "peluqueria",
   "descripcion": "cortes y belleza.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Jaramillo atrás y diagonal de la iglesia",
   "telefono": "+593959107258",
   "latitud": -4.218569,
   "longitud": -79.258469,
@@ -1836,11 +1836,11 @@
 },
 
 {
-  "nombre": "peluqueria 3",
+  "nombre": "peluqueria hermena ",
   "tipo": "servicios",
   "categoria": "peluqueria",
   "descripcion": "cortes y belleza.",
-  "direccion": "av loja",
+  "direccion": "Miguel Ríofrio y Manuel Ignacio Godoy",
   "telefono": "+593959107258",
   "latitud": -4.218570,
   "longitud": -79.258470,
@@ -1850,11 +1850,11 @@
 },
 
 {
-  "nombre": "peluqueria 4",
+  "nombre": "peluqueria junto a la her. Ochoa",
   "tipo": "servicios",
   "categoria": "peluqueria",
   "descripcion": "cortes y belleza.",
-  "direccion": "av loja",
+  "direccion": "Miguel Ríofrio y Manuel Ignacio Godoy",
   "telefono": "+593959107258",
   "latitud": -4.218571,
   "longitud": -79.258471,
@@ -1864,11 +1864,11 @@
 },
 
 {
-  "nombre": "peluqueria 5",
+  "nombre": "peluqueria Avendaño",
   "tipo": "servicios",
   "categoria": "peluqueria",
   "descripcion": "cortes y belleza.",
-  "direccion": "av loja",
+  "direccion": "Av. Pio Jaramillo y Alejandro Bravo",
   "telefono": "+593959107258",
   "latitud": -4.218572,
   "longitud": -79.258472,
