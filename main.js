@@ -35,7 +35,10 @@ const TEXTOS = {
 let searchText = "";
 
 // 🗺️ MAPA
-const map = L.map("map").setView([-4.219167, -79.258333], 15);
+const map = L.map("map").setView(
+  [-4.219167, -79.258333],
+  15
+);
 
 L.tileLayer(
   "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -134,7 +137,7 @@ async function iniciar() {
 
 iniciar();
 
-// 🌐 APLICAR IDIOMA
+// 🌐 IDIOMA
 function aplicarIdioma() {
 
   const t = TEXTOS[LANG];
@@ -167,7 +170,9 @@ function aplicarIdioma() {
 // 🗺️ MAPA
 function renderizarTodo() {
 
-  markers.forEach(m => map.removeLayer(m));
+  markers.forEach(m =>
+    map.removeLayer(m)
+  );
 
   markers = [];
 
@@ -185,7 +190,7 @@ function renderizarTodo() {
       item.categoria !== currentFilter
     ) return;
 
-    // 👇 SOLO OCULTA LOS QUE TENGAN activo:false
+    // 👇 SOLO OCULTA SI activo:false
     if (item.activo === false) return;
 
     // 🔍 BUSCADOR
@@ -206,21 +211,18 @@ function renderizarTodo() {
 
     }
 
-    // 🧹 LIMPIAR CATEGORÍA
-    const categoriaLimpia =
-      String(item.categoria || "")
-        .trim()
-        .toLowerCase();
-
     // 🖼️ ICONO
     const icono =
       item.icono ||
-      ALL.categorias[categoriaLimpia]?.icono ||
+      ALL.categorias[item.categoria]?.icono ||
       "icon-default.jpeg";
 
-    // 📍 CREAR MARCADOR
+    // 📍 MARCADOR
     const marker = L.marker(
-      [item.latitud, item.longitud],
+      [
+        item.latitud,
+        item.longitud
+      ],
       {
         icon: iconoDe(icono)
       }
@@ -234,7 +236,9 @@ function renderizarTodo() {
 
         markerSeleccionado = marker;
 
-        alert(TEXTOS[LANG].mover);
+        alert(
+          TEXTOS[LANG].mover
+        );
 
       } else {
 
@@ -332,7 +336,7 @@ function renderDestacados(arr) {
 
 }
 
-// 📄 DETALLE + LINKS
+// 📄 DETALLE
 function mostrarDetalle(item) {
 
   const links =
@@ -405,7 +409,8 @@ function abrirGaleria(imagenes) {
   galleryIndex = 0;
 
   document.getElementById("lb-img")
-    .src = "data/" + imagenes[0];
+    .src =
+      "data/" + imagenes[0];
 
   document.getElementById("lightbox")
     .classList.add("open");
@@ -429,21 +434,28 @@ function cambiarImg(dir) {
 
 }
 
-document.getElementById("lb-close").onclick =
-  () =>
-    document.getElementById("lightbox")
-      .classList.remove("open");
+document.getElementById(
+  "lb-close"
+).onclick = () =>
+
+  document.getElementById(
+    "lightbox"
+  ).classList.remove("open");
 
 // 🎛️ FILTROS
 function generarFiltros() {
 
   const f =
-    document.getElementById("filters");
+    document.getElementById(
+      "filters"
+    );
 
   f.innerHTML = "";
 
   const b =
-    document.createElement("button");
+    document.createElement(
+      "button"
+    );
 
   b.textContent = "TODOS";
 
@@ -461,11 +473,11 @@ function generarFiltros() {
     .forEach(cat => {
 
       const btn =
-        document.createElement("button");
+        document.createElement(
+          "button"
+        );
 
-      // 👇 MÁS BONITO
-      btn.textContent =
-        cat.replaceAll("-", " ");
+      btn.textContent = cat;
 
       btn.onclick = () => {
 
@@ -491,53 +503,55 @@ function pintarLeyenda() {
 
   c.innerHTML = "";
 
-  Object.entries(ALL.categorias)
-    .forEach(([k, v]) => {
+  Object.entries(
+    ALL.categorias
+  ).forEach(([k, v]) => {
 
-      c.innerHTML += `
-        <div class="leyenda-item">
+    c.innerHTML += `
+      <div class="leyenda-item">
 
-          <img src="data/${v.icono}">
+        <img src="data/${v.icono}">
 
-          ${k.replaceAll("-", " ")}
+        ${k}
 
-        </div>
-      `;
+      </div>
+    `;
 
-    });
+  });
 
 }
 
 // 🎮 CONTROLES
 function bindControls() {
 
-  document.getElementById("btn-edit")
-    .onclick = () => {
+  document.getElementById(
+    "btn-edit"
+  ).onclick = () => {
 
-      if (!editMode) {
+    if (!editMode) {
 
-        const clave =
-          prompt("Clave:");
+      const clave =
+        prompt("Clave:");
 
-        if (
-          clave !== CLAVE_EDICION
-        ) {
+      if (
+        clave !== CLAVE_EDICION
+      ) {
 
-          alert(
-            TEXTOS[LANG].claveError
-          );
+        alert(
+          TEXTOS[LANG].claveError
+        );
 
-          return;
-
-        }
+        return;
 
       }
 
-      editMode = !editMode;
+    }
 
-      aplicarIdioma();
+    editMode = !editMode;
 
-    };
+    aplicarIdioma();
+
+  };
 
   document.getElementById(
     "search-input"
@@ -555,16 +569,20 @@ function bindControls() {
     }
   );
 
-  document.getElementById("bp-close")
-    .onclick = () =>
-      document.getElementById(
-        "bottom-panel"
-      ).classList.remove("open");
+  document.getElementById(
+    "bp-close"
+  ).onclick = () =>
 
-  document.getElementById("leyenda-bar")
-    .onclick = () =>
-      document.getElementById(
-        "leyenda-drawer"
-      ).classList.toggle("open");
+    document.getElementById(
+      "bottom-panel"
+    ).classList.remove("open");
+
+  document.getElementById(
+    "leyenda-bar"
+  ).onclick = () =>
+
+    document.getElementById(
+      "leyenda-drawer"
+    ).classList.toggle("open");
 
 }
