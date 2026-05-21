@@ -162,31 +162,23 @@ function aplicarIdioma() {
 
 }
 
-// 🗺️ RENDER MAPA
+// MAPA
 function renderizarTodo() {
-
   markers.forEach(m => map.removeLayer(m));
-
   markers = [];
 
-  const todos = [
-    ...ALL.bienes,
-    ...ALL.servicios
-  ];
+  const todos = [...ALL.bienes, ...ALL.servicios];
 
   todos.forEach(item => {
 
     if (!datoSeguro(item)) return;
 
-    if (
-      currentFilter &&
-      item.categoria !== currentFilter
-    ) return;
+    if (currentFilter && item.categoria !== currentFilter) return;
 
-    // 👇 SOLO OCULTA LOS QUE TENGAN activo:false
+    // SOLO OCULTA LOS QUE TENGAN activo:false
     if (item.activo === false) return;
 
-    // 🔍 BUSCADOR
+    // BUSCADOR
     if (searchText.length > 0) {
 
       const texto = `
@@ -196,26 +188,18 @@ function renderizarTodo() {
         ${item.direccion || ""}
       `.toLowerCase();
 
-      if (
-        !texto.includes(
-          searchText.toLowerCase()
-        )
-      ) return;
-
+      if (!texto.includes(searchText.toLowerCase())) return;
     }
 
-    // 🖼️ ICONO
+    // ICONO
     const icono =
       item.icono ||
       ALL.categorias[item.categoria]?.icono ||
       "icon-default.jpeg";
 
-    // 📍 MARCADOR
+    // CREAR MARCADOR
     const marker = L.marker(
-      [
-        item.latitud,
-        item.longitud
-      ],
+      [item.latitud, item.longitud],
       {
         icon: iconoDe(icono)
       }
@@ -246,7 +230,6 @@ function renderizarTodo() {
   renderDestacados(
     todos.filter(x => x.destacado)
   );
-
 }
 
 // 📍 MOVER ÍCONO
