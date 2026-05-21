@@ -67,6 +67,10 @@ function datoSeguro(item) {
 
 function iconoDe(ruta) {
 
+  if (!ruta) {
+    ruta = "icon-default.jpeg";
+  }
+
   return L.icon({
     iconUrl: "data/" + ruta,
     iconSize: [28, 28],
@@ -74,7 +78,6 @@ function iconoDe(ruta) {
   });
 
 }
-
 // 📦 ESTADO
 let ALL = {
   bienes: [],
