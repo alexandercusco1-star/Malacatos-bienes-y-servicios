@@ -223,8 +223,8 @@ function renderizarTodo() {
     // 📍 MARCADOR
     const marker = L.marker(
       [
-        item.latitud,
-        item.longitud
+  parseFloat(item.latitud),
+  parseFloat(item.longitud)
       ],
       {
         icon: iconoDe(icono)
