@@ -514,8 +514,8 @@
     "descripcion": "Diseno y construccion en metal.",
     "direccion": "Av. loja a 290m antes de entrar a calera",
     "telefono": "+593959007258",
-    "latitud": -4.228580,
-    "longitud": -79.258904,
+    "latitud": -4.216108,
+    "longitud": -79.254648,
     "icono": "icon-soldadura.jpeg",
     "imagenes": [
       "s36-soldadura-chalan.jpg",
@@ -529,8 +529,8 @@
     "descripcion": "Reparacion de motos.",
     "direccion": "Av. loja a 290m antes de la entrada a calera",
     "telefono": "+593959007258",
-    "latitud": -4.228880,
-    "longitud": -79.258904,
+    "latitud": -4.216038,
+    "longitud": -79.25508,
     "icono": "icon-motos.jpeg",
     "imagenes": [
       "s37-motos-motus.jpg",
@@ -544,8 +544,8 @@
     "descripcion": "Espacio para la realizacion de eventos.",
     "direccion": "Av. Loja a 50m antes de la entrada a calera",
     "telefono": "+593959007258",
-    "latitud": -4.229780,
-    "longitud": -79.258904,
+    "latitud": -4.216560,
+    "longitud": -79.255441,
     "icono": "icon-centro-eventos.jpeg",
     "imagenes": [
       "s38-centro-eventos.jpg",
@@ -559,8 +559,8 @@
     "descripcion": "Venta de madera al por mayor y menor.",
     "direccion": "Av. loja frente a la entrada a calera vía a la gasolinera  ",
     "telefono": "+593959007258",
-    "latitud": -4.222780,
-    "longitud": -79.258904,
+    "latitud": -4.216702,
+    "longitud": -79.255739,
     "icono": "icon-aserradero.jpeg",
     "imagenes": [
       "s39-aserradero-soto.jpg",
@@ -574,8 +574,8 @@
     "descripcion": "Venta de madera al por mayor y menor.",
     "direccion": "Av. Loja frente a discoteca level1 vía a la gasolinera ",
     "telefono": "+593959007258",
-    "latitud": -4.224480,
-    "longitud": -79.258904,
+    "latitud": -4.216847,
+    "longitud": -79.256598,
     "icono": "icon-aserradero.jpeg",
     "imagenes": [
       "s40-aserradero-soto.jpg",
@@ -589,8 +589,8 @@
     "descripcion": "Produccion de panela de cana.",
     "direccion": "subiendo a 200m de la av. Loja por la lubricante VAS",
     "telefono": "+593959007258",
-    "latitud": -4.234480,
-    "longitud": -79.258904,
+    "latitud": -4.216548,
+    "longitud": -79.258924,
     "icono": "icon-fabrica-cana.jpeg",
     "imagenes": [
       "s41-fabrica-cana-ocampo.jpg",
@@ -604,8 +604,8 @@
     "descripcion": "Medicina y medicamentos para su salud.",
     "direccion": "Av. Loja y Av. Pio Jaramillo",
     "telefono": "+593959007258",
-    "latitud": -4.218023,
-    "longitud": -79.258534,
+    "latitud": -4.218233,
+    "longitud": -79.258491,
     "icono": "icon-farmacia.jpeg",
     "imagenes": [
       "s42-farmacia-MIAS.jpg"
@@ -619,8 +619,8 @@
     "descripcion": "Pollo asado y gastronomia local.",
     "direccion": "Av. Pio Jaramillo ",
     "telefono": "+593959007258",
-    "latitud": -4.221,
-    "longitud": -79.241,
+    "latitud": -4.218421,
+    "longitud": -79.259042,
     "icono": "icon-asadero-pollo.jpeg",
     "imagenes": [
       "s43-asadero-pollo-maria.jpg"
@@ -649,8 +649,8 @@
     "descripcion": "Comida manaba y marisqueria.",
     "direccion": "Av. Pio Jaramillo y Alejandro bravo",
     "telefono": "+593959007258",
-    "latitud": -4.223,
-    "longitud": -79.242,
+    "latitud": -4.218441,
+    "longitud": -79.259559,
     "icono": "icon-marisqueria.jpeg",
     "imagenes": [
       "s45-marisqueria.jpg"
@@ -664,8 +664,8 @@
     "descripcion": "Marisqueria.",
     "direccion": "Av. Pio Jaramillo y ",
     "telefono": "+593959007258",
-    "latitud": -4.224,
-    "longitud": -79.242,
+    "latitud": -4.217771,
+    "longitud": -79.258820,
     "icono": "icon-marisqueria.jpeg",
     "imagenes": [
       "s46-marisqueria.jpg"
@@ -679,8 +679,8 @@
     "descripcion": "Venta y distribucion de gas.",
     "direccion": "Av. Pio Jaramillo y ",
     "telefono": "+593959007258",
-    "latitud": -4.2235,
-    "longitud": -79.242,
+    "latitud": -4.217816,
+    "longitud": -79.258600,
     "icono": "icon-distribuidora-gas.jpeg",
     "imagenes": [
       "s47-distribuidora-gas.jpg"
@@ -694,8 +694,8 @@
     "descripcion": "Venta y distribucion de gas.",
     "direccion": "Av. Pio Jaramillo y ",
     "telefono": "+593959007258",
-    "latitud": -4.2237,
-    "longitud": -79.242,
+    "latitud": -4.218364,
+    "longitud": -79.259335,
     "icono": "icon-distribuidora-gas.jpeg",
     "imagenes": [
       "s48-distribuidora-gas-riofrio.jpg"
@@ -709,8 +709,8 @@
     "descripcion": "Cooperativa de ahorro y credito.",
     "direccion": "Av. Pio Jaramillo y ",
     "telefono": "+593959007258",
-    "latitud": -4.2239,
-    "longitud": -79.242,
+    "latitud": -4.217623,
+    "longitud": -79.258885,
     "icono": "icon-cooperativa.jpeg",
     "imagenes": [
       "s49-cooperativa-cacpe.jpg"
