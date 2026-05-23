@@ -280,9 +280,9 @@ map.on("click", e => {
     lng
   ]);
 
-  markerSeleccionado.__data.latitud = lat;
+  markerSeleccionado.__data.latitud = parseFloat(lat);
 
-  markerSeleccionado.__data.longitud = lng;
+markerSeleccionado.__data.longitud = parseFloat(lng);
 
   alert(
     `Coordenadas:\nLat: ${lat}\nLng: ${lng}`
