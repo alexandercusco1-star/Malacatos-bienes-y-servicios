@@ -58,9 +58,9 @@ function datoSeguro(item) {
   return (
     item &&
     item.nombre &&
-    !isNaN(item.latitud) &&
-    !isNaN(item.longitud) &&
-    item.categoria
+    item.categoria &&
+    !isNaN(parseFloat(item.latitud)) &&
+    !isNaN(parseFloat(item.longitud))
   );
 
 }
